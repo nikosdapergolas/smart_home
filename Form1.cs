@@ -53,5 +53,11 @@ namespace Smart_home
             // Shows the number of items in the list 
             //MessageBox.Show(assistantAvatar.Count.ToString());
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 home = new Form2();
+            home.Show();
+        }
     }
 }
