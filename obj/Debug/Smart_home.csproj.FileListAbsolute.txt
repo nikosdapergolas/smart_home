@@ -8,3 +8,4 @@ S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.csproj.GenerateReso
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.csproj.CoreCompileInputs.cache
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.exe
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.pdb
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Form2.resources
