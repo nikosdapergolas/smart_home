@@ -124,5 +124,12 @@ namespace Smart_home
         {
             MessageBox.Show("hello world");
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Nikos_shoe_rack shoe_rack = new Nikos_shoe_rack();
+            shoe_rack.Show();
+
+        }
     }
 }
