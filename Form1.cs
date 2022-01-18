@@ -12,6 +12,8 @@ namespace Smart_home
 {
     public partial class Form1 : Form
     {
+        
+
         // A list that contains all the URLs of the pictures for the avatars
         List<String> assistantAvatar = new List<string>();
 
@@ -58,6 +60,16 @@ namespace Smart_home
         {
             Form2 home = new Form2();
             home.Show();
+        }
+
+        private void onlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void exitApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

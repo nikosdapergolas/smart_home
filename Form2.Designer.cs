@@ -43,10 +43,13 @@ namespace Smart_home
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.richTextBox7 = new System.Windows.Forms.RichTextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.richTextBox8 = new System.Windows.Forms.RichTextBox();
-            this.button6 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.onlineHelpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitApplicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -219,18 +222,6 @@ namespace Smart_home
             this.richTextBox7.Text = "Click here to interract with the smart feeder";
             this.richTextBox7.Visible = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Smart_home.Properties.Resources.hint;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(47, 42);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
-            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
-            // 
             // richTextBox8
             // 
             this.richTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -244,15 +235,44 @@ namespace Smart_home
     "th your actions";
             this.richTextBox8.Visible = false;
             // 
-            // button6
+            // pictureBox1
             // 
-            this.button6.Location = new System.Drawing.Point(414, 329);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(110, 63);
-            this.button6.TabIndex = 19;
-            this.button6.Text = "hello";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Smart_home.Properties.Resources.hint;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 53);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(47, 42);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
+            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Gray;
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.onlineHelpToolStripMenuItem1,
+            this.exitApplicationToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1028, 29);
+            this.menuStrip1.TabIndex = 19;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // onlineHelpToolStripMenuItem1
+            // 
+            this.onlineHelpToolStripMenuItem1.Name = "onlineHelpToolStripMenuItem1";
+            this.onlineHelpToolStripMenuItem1.Size = new System.Drawing.Size(99, 25);
+            this.onlineHelpToolStripMenuItem1.Text = "online help";
+            // 
+            // exitApplicationToolStripMenuItem
+            // 
+            this.exitApplicationToolStripMenuItem.Name = "exitApplicationToolStripMenuItem";
+            this.exitApplicationToolStripMenuItem.Size = new System.Drawing.Size(126, 25);
+            this.exitApplicationToolStripMenuItem.Text = "Exit application";
+            this.exitApplicationToolStripMenuItem.Click += new System.EventHandler(this.exitApplicationToolStripMenuItem_Click);
             // 
             // Form2
             // 
@@ -260,7 +280,7 @@ namespace Smart_home
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1028, 647);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.richTextBox8);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.richTextBox7);
@@ -282,6 +302,8 @@ namespace Smart_home
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -304,6 +326,8 @@ namespace Smart_home
         private System.Windows.Forms.RichTextBox richTextBox7;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.RichTextBox richTextBox8;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem onlineHelpToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem exitApplicationToolStripMenuItem;
     }
 }

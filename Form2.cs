@@ -131,5 +131,10 @@ namespace Smart_home
             shoe_rack.Show();
 
         }
+
+        private void exitApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
