@@ -63,9 +63,39 @@ namespace Smart_home.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap apartment_overhead_view {
+            get {
+                object obj = ResourceManager.GetObject("apartment_overhead_view", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cold {
+            get {
+                object obj = ResourceManager.GetObject("cold", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hint {
             get {
                 object obj = ResourceManager.GetObject("hint", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hot {
+            get {
+                object obj = ResourceManager.GetObject("hot", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
