@@ -10,3 +10,16 @@ S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.exe
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.pdb
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Form2.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_shoe_rack.resources
+C:\Users\Νικολέτα\Source\Repos\smart_home\bin\Debug\Smart_home.exe.config
+C:\Users\Νικολέτα\Source\Repos\smart_home\bin\Debug\Smart_home.exe
+C:\Users\Νικολέτα\Source\Repos\smart_home\bin\Debug\Smart_home.pdb
+C:\Users\Νικολέτα\Source\Repos\smart_home\obj\Debug\Smart_home.csproj.AssemblyReference.cache
+C:\Users\Νικολέτα\Source\Repos\smart_home\obj\Debug\Smart_home.Form1.resources
+C:\Users\Νικολέτα\Source\Repos\smart_home\obj\Debug\Smart_home.Form2.resources
+C:\Users\Νικολέτα\Source\Repos\smart_home\obj\Debug\Smart_home.Nikos_shoe_rack.resources
+C:\Users\Νικολέτα\Source\Repos\smart_home\obj\Debug\Smart_home.Properties.Resources.resources
+C:\Users\Νικολέτα\Source\Repos\smart_home\obj\Debug\Smart_home.csproj.GenerateResource.cache
+C:\Users\Νικολέτα\Source\Repos\smart_home\obj\Debug\Smart_home.csproj.CoreCompileInputs.cache
+C:\Users\Νικολέτα\Source\Repos\smart_home\obj\Debug\Smart_home.exe
+C:\Users\Νικολέτα\Source\Repos\smart_home\obj\Debug\Smart_home.pdb
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Eva_AirCondition_Form.resources

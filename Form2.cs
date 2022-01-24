@@ -136,5 +136,14 @@ namespace Smart_home
         {
             Application.Exit();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Eva_AirCondition_Form air_condition = new Eva_AirCondition_Form();
+            air_condition.Show();
+
+        }
     }
+     
 }
+    
