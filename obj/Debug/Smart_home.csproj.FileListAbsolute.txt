@@ -25,3 +25,4 @@ C:\Users\Νικολέτα\Source\Repos\smart_home\obj\Debug\Smart_home.pdb
 C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Eva_AirCondition_Form.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Eva_AirCondition_Form.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_heat.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_heat_control.resources

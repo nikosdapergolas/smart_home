@@ -70,6 +70,12 @@
     <Compile Include="Nikos_heat.Designer.cs">
       <DependentUpon>Nikos_heat.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nikos_heat_control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_heat_control.Designer.cs">
+      <DependentUpon>Nikos_heat_control.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nikos_shoe_rack.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_heat.resx">
       <DependentUpon>Nikos_heat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_heat_control.resx">
+      <DependentUpon>Nikos_heat_control.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_shoe_rack.resx">
       <DependentUpon>Nikos_shoe_rack.cs</DependentUpon>
