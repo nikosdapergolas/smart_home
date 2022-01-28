@@ -146,5 +146,11 @@
   <ItemGroup>
     <None Include="bin\Debug\pictures\apartment_overhead_view.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pictures\hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pictures\not_hot.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -124,6 +124,9 @@
   <data name="hot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="man_assistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\man_assistant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -138,5 +141,8 @@
   </data>
   <data name="apartment_overhead_view" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\apartment_overhead_view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="not_hot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\not_hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

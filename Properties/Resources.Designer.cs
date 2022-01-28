@@ -103,9 +103,29 @@ namespace Smart_home.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hot1 {
+            get {
+                object obj = ResourceManager.GetObject("hot1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap man_assistant {
             get {
                 object obj = ResourceManager.GetObject("man_assistant", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap not_hot {
+            get {
+                object obj = ResourceManager.GetObject("not_hot", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
