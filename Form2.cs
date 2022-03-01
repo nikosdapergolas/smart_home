@@ -149,6 +149,12 @@ namespace Smart_home
             Nikos_heat heat = new Nikos_heat();
             heat.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Nikos_lights lights = new Nikos_lights();
+            lights.Show();
+        }
     }
      
 }
