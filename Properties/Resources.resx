@@ -118,31 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="hint" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\pictures\hint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\pictures\hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="man_assistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\pictures\man_assistant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="woman_assistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\woman_assistant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="robot_assistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\pictures\robot_assistant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="living_room_lights_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\living_room_lights_off.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="apartment_overhead_view" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\apartment_overhead_view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kitchen_lights_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\kitchen_lights_off.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\bedroom1_lights_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="living_room_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="man_assistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\man_assistant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lightbulb2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\lightbulb2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kitchen_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\kitchen_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\bedroom1_lights_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\hint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="robot_assistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pictures\robot_assistant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="not_hot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\not_hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kitchen_lights_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kitchen_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

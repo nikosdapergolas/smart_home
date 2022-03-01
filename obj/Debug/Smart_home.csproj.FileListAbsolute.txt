@@ -27,3 +27,6 @@ S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Eva_AirCondition_Fo
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_heat.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_heat_control.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_bedroom1.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_living_room.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_kitchen.resources

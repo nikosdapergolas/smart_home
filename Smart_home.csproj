@@ -88,6 +88,24 @@
     <Compile Include="Nikos_lights.Designer.cs">
       <DependentUpon>Nikos_lights.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nikos_lights_bedroom1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_lights_bedroom1.Designer.cs">
+      <DependentUpon>Nikos_lights_bedroom1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nikos_lights_kitchen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_lights_kitchen.Designer.cs">
+      <DependentUpon>Nikos_lights_kitchen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nikos_lights_living_room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_lights_living_room.Designer.cs">
+      <DependentUpon>Nikos_lights_living_room.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nikos_shoe_rack.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +131,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_lights.resx">
       <DependentUpon>Nikos_lights.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_lights_bedroom1.resx">
+      <DependentUpon>Nikos_lights_bedroom1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_lights_kitchen.resx">
+      <DependentUpon>Nikos_lights_kitchen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_lights_living_room.resx">
+      <DependentUpon>Nikos_lights_living_room.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_shoe_rack.resx">
       <DependentUpon>Nikos_shoe_rack.cs</DependentUpon>
@@ -166,6 +193,29 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\pictures\not_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pictures\lightbulb2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pictures\bedroom1_lights_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pictures\bedroom1_lights_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pictures\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\living_room_lights_on.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitchen_lights_on.jpg" />
+    <None Include="bin\Debug\pictures\kitchen_lights_on.jpg" />
+    <None Include="bin\Debug\pictures\kitchen_lights_off.jpg" />
+    <Content Include="bin\Debug\pictures\living_room_lights_off.jpg" />
+    <Content Include="Properties\living_room_lights_off.jpg" />
+    <Content Include="Resources\living_room_lights_off.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
