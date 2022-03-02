@@ -479,5 +479,14 @@ namespace Smart_home
         {
             //MessageBox.Show(bedroom1_heat_is_on.ToString());
         }
+
+        
+
+        private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
     }
 }

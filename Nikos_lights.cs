@@ -94,20 +94,56 @@ namespace Smart_home
 
         private void panel1_Click(object sender, EventArgs e)
         {
+            this.Close();
             Nikos_lights_bedroom1 bedroom1 = new Nikos_lights_bedroom1();
             bedroom1.Show();
         }
 
         private void panel2_Click(object sender, EventArgs e)
         {
+            this.Close();
             Nikos_lights_living_room living_room = new Nikos_lights_living_room();
             living_room.Show();
         }
 
         private void panel3_Click(object sender, EventArgs e)
         {
+            this.Close();
             Nikos_lights_kitchen kitchen = new Nikos_lights_kitchen();
             kitchen.Show();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+
+        private void panel4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_lights_toilet toilet = new Nikos_lights_toilet();
+            toilet.Show();
+        }
+
+        private void panel5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_lights_bathroom bathroom = new Nikos_lights_bathroom();
+            bathroom.Show();
+        }
+
+        private void panel6_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_lights_bedroom2 bedroom2 = new Nikos_lights_bedroom2();
+            bedroom2.Show();
         }
     }
 }

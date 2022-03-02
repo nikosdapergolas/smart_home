@@ -39,5 +39,12 @@ namespace Smart_home
         {
             lightsOn = true;
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_lights lights = new Nikos_lights();
+            lights.Show();
+        }
     }
 }

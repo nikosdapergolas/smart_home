@@ -30,3 +30,6 @@ S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights.resour
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_bedroom1.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_living_room.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_kitchen.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_toilet.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_bathroom.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_bedroom2.resources

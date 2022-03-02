@@ -38,5 +38,12 @@ namespace Smart_home
                 this.BackgroundImage = Smart_home.Properties.Resources.kitchen_lights_on;
             }
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_lights lights = new Nikos_lights();
+            lights.Show();
+        }
     }
 }

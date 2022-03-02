@@ -117,7 +117,7 @@ namespace Smart_home
         {
             // The image that is loaded everytime i open this form
             // and it represents the "help" icon (maybe change later)
-            pictureBox1.ImageLocation = "pictures/hint.png";
+            pictureBox1.ImageLocation = "pictures/info.png";
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -146,12 +146,14 @@ namespace Smart_home
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Close();
             Nikos_heat heat = new Nikos_heat();
             heat.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Close();
             Nikos_lights lights = new Nikos_lights();
             lights.Show();
         }

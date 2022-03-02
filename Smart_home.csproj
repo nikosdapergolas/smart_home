@@ -88,11 +88,23 @@
     <Compile Include="Nikos_lights.Designer.cs">
       <DependentUpon>Nikos_lights.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nikos_lights_bathroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_lights_bathroom.Designer.cs">
+      <DependentUpon>Nikos_lights_bathroom.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nikos_lights_bedroom1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Nikos_lights_bedroom1.Designer.cs">
       <DependentUpon>Nikos_lights_bedroom1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nikos_lights_bedroom2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_lights_bedroom2.Designer.cs">
+      <DependentUpon>Nikos_lights_bedroom2.cs</DependentUpon>
     </Compile>
     <Compile Include="Nikos_lights_kitchen.cs">
       <SubType>Form</SubType>
@@ -105,6 +117,12 @@
     </Compile>
     <Compile Include="Nikos_lights_living_room.Designer.cs">
       <DependentUpon>Nikos_lights_living_room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nikos_lights_toilet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_lights_toilet.Designer.cs">
+      <DependentUpon>Nikos_lights_toilet.cs</DependentUpon>
     </Compile>
     <Compile Include="Nikos_shoe_rack.cs">
       <SubType>Form</SubType>
@@ -132,14 +150,23 @@
     <EmbeddedResource Include="Nikos_lights.resx">
       <DependentUpon>Nikos_lights.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_lights_bathroom.resx">
+      <DependentUpon>Nikos_lights_bathroom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nikos_lights_bedroom1.resx">
       <DependentUpon>Nikos_lights_bedroom1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_lights_bedroom2.resx">
+      <DependentUpon>Nikos_lights_bedroom2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_lights_kitchen.resx">
       <DependentUpon>Nikos_lights_kitchen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_lights_living_room.resx">
       <DependentUpon>Nikos_lights_living_room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_lights_toilet.resx">
+      <DependentUpon>Nikos_lights_toilet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_shoe_rack.resx">
       <DependentUpon>Nikos_shoe_rack.cs</DependentUpon>
@@ -210,11 +237,23 @@
     <None Include="Resources\living_room_lights_on.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\toilet_lights_on1.jpg" />
+    <None Include="Resources\toilet_lights_on.jpg" />
+    <None Include="Resources\toilet_lights_off.jpg" />
     <None Include="Resources\kitchen_lights_on.jpg" />
     <None Include="bin\Debug\pictures\kitchen_lights_on.jpg" />
     <None Include="bin\Debug\pictures\kitchen_lights_off.jpg" />
+    <None Include="bin\Debug\pictures\bathroom_lights_off.jpg" />
+    <None Include="bin\Debug\pictures\bathroom_lights_on.jpg" />
     <Content Include="bin\Debug\pictures\living_room_lights_off.jpg" />
     <Content Include="Properties\living_room_lights_off.jpg" />
+    <None Include="Resources\left_arrow.jpg" />
+    <None Include="Resources\left_arrow.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\bathroom_lights_on.jpg" />
+    <None Include="Resources\bedroom2_lights_on.png" />
+    <None Include="Resources\bedroom2_lights_off.png" />
+    <None Include="Resources\bedroom2_lights_on1.png" />
     <Content Include="Resources\living_room_lights_off.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

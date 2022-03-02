@@ -58,6 +58,7 @@ namespace Smart_home
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form2 home = new Form2();
             home.Show();
         }

@@ -73,6 +73,36 @@ namespace Smart_home.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bathroom_lights_off {
+            get {
+                object obj = ResourceManager.GetObject("bathroom_lights_off", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bathroom_lights_on {
+            get {
+                object obj = ResourceManager.GetObject("bathroom_lights_on", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bathroom_lights_on1 {
+            get {
+                object obj = ResourceManager.GetObject("bathroom_lights_on1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bedroom1_lights_off {
             get {
                 object obj = ResourceManager.GetObject("bedroom1_lights_off", resourceCulture);
@@ -86,6 +116,36 @@ namespace Smart_home.Properties {
         internal static System.Drawing.Bitmap bedroom1_lights_on {
             get {
                 object obj = ResourceManager.GetObject("bedroom1_lights_on", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bedroom2_lights_off {
+            get {
+                object obj = ResourceManager.GetObject("bedroom2_lights_off", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bedroom2_lights_on {
+            get {
+                object obj = ResourceManager.GetObject("bedroom2_lights_on", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bedroom2_lights_on1 {
+            get {
+                object obj = ResourceManager.GetObject("bedroom2_lights_on1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,6 +203,16 @@ namespace Smart_home.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap info {
+            get {
+                object obj = ResourceManager.GetObject("info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kitchen_lights_off {
             get {
                 object obj = ResourceManager.GetObject("kitchen_lights_off", resourceCulture);
@@ -166,6 +236,26 @@ namespace Smart_home.Properties {
         internal static System.Drawing.Bitmap kitchen_lights_on1 {
             get {
                 object obj = ResourceManager.GetObject("kitchen_lights_on1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap left_arrow {
+            get {
+                object obj = ResourceManager.GetObject("left_arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap left_arrow1 {
+            get {
+                object obj = ResourceManager.GetObject("left_arrow1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,6 +316,36 @@ namespace Smart_home.Properties {
         internal static System.Drawing.Bitmap robot_assistant {
             get {
                 object obj = ResourceManager.GetObject("robot_assistant", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap toilet_lights_off {
+            get {
+                object obj = ResourceManager.GetObject("toilet_lights_off", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap toilet_lights_on {
+            get {
+                object obj = ResourceManager.GetObject("toilet_lights_on", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap toilet_lights_on1 {
+            get {
+                object obj = ResourceManager.GetObject("toilet_lights_on1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

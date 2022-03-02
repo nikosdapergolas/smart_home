@@ -74,6 +74,7 @@ namespace Smart_home
             this.richTextBox24 = new System.Windows.Forms.RichTextBox();
             this.richTextBox25 = new System.Windows.Forms.RichTextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.onlineHelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -93,10 +94,10 @@ namespace Smart_home
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Smart_home.Properties.Resources.hint;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 56);
+            this.pictureBox1.Image = global::Smart_home.Properties.Resources.info;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 107);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(47, 42);
+            this.pictureBox1.Size = new System.Drawing.Size(32, 34);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
@@ -196,7 +197,8 @@ namespace Smart_home
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.onlineHelpToolStripMenuItem1,
-            this.exitApplicationToolStripMenuItem});
+            this.exitApplicationToolStripMenuItem,
+            this.onlineHelpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -206,9 +208,11 @@ namespace Smart_home
             // 
             // onlineHelpToolStripMenuItem1
             // 
+            this.onlineHelpToolStripMenuItem1.ForeColor = System.Drawing.Color.White;
             this.onlineHelpToolStripMenuItem1.Name = "onlineHelpToolStripMenuItem1";
-            this.onlineHelpToolStripMenuItem1.Size = new System.Drawing.Size(99, 25);
-            this.onlineHelpToolStripMenuItem1.Text = "online help";
+            this.onlineHelpToolStripMenuItem1.Size = new System.Drawing.Size(104, 25);
+            this.onlineHelpToolStripMenuItem1.Text = "🔙 Go back";
+            this.onlineHelpToolStripMenuItem1.Click += new System.EventHandler(this.onlineHelpToolStripMenuItem1_Click);
             // 
             // exitApplicationToolStripMenuItem
             // 
@@ -598,7 +602,7 @@ namespace Smart_home
             this.richTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.richTextBox7.Location = new System.Drawing.Point(64, 102);
+            this.richTextBox7.Location = new System.Drawing.Point(48, 107);
             this.richTextBox7.Name = "richTextBox7";
             this.richTextBox7.ReadOnly = true;
             this.richTextBox7.Size = new System.Drawing.Size(583, 271);
@@ -663,6 +667,12 @@ namespace Smart_home
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // onlineHelpToolStripMenuItem
+            // 
+            this.onlineHelpToolStripMenuItem.Name = "onlineHelpToolStripMenuItem";
+            this.onlineHelpToolStripMenuItem.Size = new System.Drawing.Size(99, 25);
+            this.onlineHelpToolStripMenuItem.Text = "online help";
             // 
             // Nikos_heat
             // 
@@ -755,5 +765,6 @@ namespace Smart_home
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.ToolStripMenuItem onlineHelpToolStripMenuItem;
     }
 }

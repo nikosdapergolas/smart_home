@@ -44,6 +44,7 @@ namespace Smart_home
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.onlineHelpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitApplicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -51,6 +52,7 @@ namespace Smart_home
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -92,6 +94,7 @@ namespace Smart_home
             this.panel2.Size = new System.Drawing.Size(394, 423);
             this.panel2.TabIndex = 21;
             this.panel2.Click += new System.EventHandler(this.panel2_Click);
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             this.panel2.MouseLeave += new System.EventHandler(this.panel2_MouseLeave);
             this.panel2.MouseHover += new System.EventHandler(this.panel2_MouseHover);
             // 
@@ -145,6 +148,7 @@ namespace Smart_home
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(143, 119);
             this.panel4.TabIndex = 26;
+            this.panel4.Click += new System.EventHandler(this.panel4_Click);
             this.panel4.MouseLeave += new System.EventHandler(this.panel4_MouseLeave);
             this.panel4.MouseHover += new System.EventHandler(this.panel4_MouseHover);
             // 
@@ -171,6 +175,7 @@ namespace Smart_home
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(177, 233);
             this.panel5.TabIndex = 29;
+            this.panel5.Click += new System.EventHandler(this.panel5_Click);
             this.panel5.MouseLeave += new System.EventHandler(this.panel5_MouseLeave);
             this.panel5.MouseHover += new System.EventHandler(this.panel5_MouseHover);
             // 
@@ -197,6 +202,7 @@ namespace Smart_home
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(317, 261);
             this.panel6.TabIndex = 29;
+            this.panel6.Click += new System.EventHandler(this.panel6_Click);
             this.panel6.MouseLeave += new System.EventHandler(this.panel6_MouseLeave);
             this.panel6.MouseHover += new System.EventHandler(this.panel6_MouseHover);
             // 
@@ -241,6 +247,19 @@ namespace Smart_home
             this.exitApplicationToolStripMenuItem.Text = "Exit application";
             this.exitApplicationToolStripMenuItem.Click += new System.EventHandler(this.exitApplicationToolStripMenuItem_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::Smart_home.Properties.Resources.left_arrow1;
+            this.pictureBox2.Location = new System.Drawing.Point(-11, 34);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(117, 80);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 24;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // Nikos_lights
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -248,6 +267,7 @@ namespace Smart_home
             this.BackgroundImage = global::Smart_home.Properties.Resources.apartment_overhead_view;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1073, 632);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
@@ -268,6 +288,7 @@ namespace Smart_home
             this.panel6.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -290,5 +311,6 @@ namespace Smart_home
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem onlineHelpToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem exitApplicationToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

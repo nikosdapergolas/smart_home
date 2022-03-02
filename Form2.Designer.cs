@@ -269,7 +269,7 @@ namespace Smart_home
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Smart_home.Properties.Resources.hint;
+            this.pictureBox1.Image = global::Smart_home.Properties.Resources.info;
             this.pictureBox1.Location = new System.Drawing.Point(12, 53);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(47, 42);
