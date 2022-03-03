@@ -157,6 +157,13 @@ namespace Smart_home
             Nikos_lights lights = new Nikos_lights();
             lights.Show();
         }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_personal_assistant personal_assistant = new Nikos_personal_assistant();
+            personal_assistant.Show();
+        }
     }
      
 }

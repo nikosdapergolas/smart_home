@@ -124,6 +124,12 @@
     <Compile Include="Nikos_lights_toilet.Designer.cs">
       <DependentUpon>Nikos_lights_toilet.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nikos_personal_assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_personal_assistant.Designer.cs">
+      <DependentUpon>Nikos_personal_assistant.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nikos_shoe_rack.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_lights_toilet.resx">
       <DependentUpon>Nikos_lights_toilet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_personal_assistant.resx">
+      <DependentUpon>Nikos_personal_assistant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_shoe_rack.resx">
       <DependentUpon>Nikos_shoe_rack.cs</DependentUpon>

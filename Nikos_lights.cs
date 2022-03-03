@@ -145,5 +145,10 @@ namespace Smart_home
             Nikos_lights_bedroom2 bedroom2 = new Nikos_lights_bedroom2();
             bedroom2.Show();
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

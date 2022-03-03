@@ -33,3 +33,4 @@ S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_kitche
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_toilet.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_bathroom.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_lights_bedroom2.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_personal_assistant.resources

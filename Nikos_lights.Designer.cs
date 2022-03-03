@@ -122,6 +122,7 @@ namespace Smart_home
             this.panel3.Size = new System.Drawing.Size(300, 119);
             this.panel3.TabIndex = 41;
             this.panel3.Click += new System.EventHandler(this.panel3_Click);
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             this.panel3.MouseLeave += new System.EventHandler(this.panel3_MouseLeave);
             this.panel3.MouseHover += new System.EventHandler(this.panel3_MouseHover);
             // 
