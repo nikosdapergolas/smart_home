@@ -208,4 +208,34 @@
   <data name="bedroom2_lights_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bedroom2_lights_on1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bedroom1_lights_on_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

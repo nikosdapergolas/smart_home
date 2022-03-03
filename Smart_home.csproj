@@ -263,6 +263,16 @@
     <None Include="Resources\bedroom2_lights_on.png" />
     <None Include="Resources\bedroom2_lights_off.png" />
     <None Include="Resources\bedroom2_lights_on1.png" />
+    <None Include="Resources\bedroom1_lights_on_3.png" />
+    <None Include="Resources\bedroom1_lights_on_4.png" />
+    <None Include="Resources\bedroom1_lights_on_5.png" />
+    <None Include="Resources\bedroom1_lights_on_6.png" />
+    <None Include="Resources\bedroom1_lights_on_7.png" />
+    <None Include="Resources\bedroom1_lights_on_8.png" />
+    <None Include="Resources\bedroom1_lights_on_9.png" />
+    <None Include="Resources\bedroom1_lights_on_0.png" />
+    <None Include="Resources\bedroom1_lights_on_1.png" />
+    <None Include="Resources\bedroom1_lights_on_2.png" />
     <Content Include="Resources\living_room_lights_off.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
