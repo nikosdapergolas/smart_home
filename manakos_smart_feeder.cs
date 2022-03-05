@@ -115,6 +115,7 @@ namespace Smart_home
         private void button1_Click(object sender, EventArgs e)
         {
             food = 100;
+            timer3.Start();
 
         }
 
