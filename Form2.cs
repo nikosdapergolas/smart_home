@@ -164,6 +164,14 @@ namespace Smart_home
             Nikos_personal_assistant personal_assistant = new Nikos_personal_assistant();
             personal_assistant.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            manakos_smart_feeder h = new manakos_smart_feeder();
+            h.Show();
+            
+        }
     }
      
 }

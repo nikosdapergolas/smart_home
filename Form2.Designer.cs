@@ -150,6 +150,7 @@ namespace Smart_home
             this.button7.TabIndex = 10;
             this.button7.Text = "smart feeder";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             this.button7.MouseLeave += new System.EventHandler(this.button7_MouseLeave);
             this.button7.MouseHover += new System.EventHandler(this.button7_MouseHover);
             // 

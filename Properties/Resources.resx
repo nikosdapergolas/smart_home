@@ -121,23 +121,65 @@
   <data name="kitchen_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\kitchen_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ERTNEWS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ERTNEWS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="toilet_lights_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\toilet_lights_on1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lightbulb2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\lightbulb2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="news" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\news.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="apartment_overhead_view" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\apartment_overhead_view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newzzzagams" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newzzzagams.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toilet_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toilet_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bedroom1_lights_on_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AGMS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AGMS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smort.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="living_room_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\living_room_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cato.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toilet_lights_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toilet_lights_off.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bathroom_lights_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bathroom_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,26 +190,32 @@
   <data name="not_hot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\not_hot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="left_arrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\left_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bedroom2_lights_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom2_lights_on1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="toilet_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\toilet_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bedroom1_lights_on_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petfood1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petfood.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="robot_assistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\robot_assistant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="toilet_lights_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\toilet_lights_off.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="living_room_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="left_arrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bathroom_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\bathroom_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="left_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\left_arrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="man_assistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\man_assistant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,6 +229,12 @@
   <data name="bedroom1_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\bedroom1_lights_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DogEmoji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DogEmoji.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kitchen_lights_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kitchen_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -190,11 +244,23 @@
   <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bedroom1_lights_on_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="woman_assistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\woman_assistant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hint" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\hint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bedroom1_lights_on_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petfood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petfood.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bedroom2_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bedroom2_lights_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,37 +271,7 @@
   <data name="bathroom_lights_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\bathroom_lights_off.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bedroom2_lights_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom2_lights_on1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bedroom1_lights_on_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bedroom1_lights_on_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bedroom1_lights_on_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bedroom1_lights_on_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bedroom1_lights_on_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bedroom1_lights_on_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bedroom1_lights_on_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bedroom1_lights_on_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bedroom1_lights_on_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bedroom1_lights_on_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="akiba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\akiba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

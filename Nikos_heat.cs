@@ -488,5 +488,10 @@ namespace Smart_home
             Form2 form2 = new Form2();
             form2.Show();
         }
+
+        private void onlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

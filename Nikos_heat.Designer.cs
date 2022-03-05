@@ -41,6 +41,7 @@ namespace Smart_home
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.onlineHelpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitApplicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.onlineHelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.richTextBox11 = new System.Windows.Forms.RichTextBox();
@@ -74,7 +75,6 @@ namespace Smart_home
             this.richTextBox24 = new System.Windows.Forms.RichTextBox();
             this.richTextBox25 = new System.Windows.Forms.RichTextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.onlineHelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -220,6 +220,13 @@ namespace Smart_home
             this.exitApplicationToolStripMenuItem.Size = new System.Drawing.Size(126, 25);
             this.exitApplicationToolStripMenuItem.Text = "Exit application";
             this.exitApplicationToolStripMenuItem.Click += new System.EventHandler(this.exitApplicationToolStripMenuItem_Click);
+            // 
+            // onlineHelpToolStripMenuItem
+            // 
+            this.onlineHelpToolStripMenuItem.Name = "onlineHelpToolStripMenuItem";
+            this.onlineHelpToolStripMenuItem.Size = new System.Drawing.Size(99, 25);
+            this.onlineHelpToolStripMenuItem.Text = "online help";
+            this.onlineHelpToolStripMenuItem.Click += new System.EventHandler(this.onlineHelpToolStripMenuItem_Click);
             // 
             // panel2
             // 
@@ -667,12 +674,6 @@ namespace Smart_home
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // onlineHelpToolStripMenuItem
-            // 
-            this.onlineHelpToolStripMenuItem.Name = "onlineHelpToolStripMenuItem";
-            this.onlineHelpToolStripMenuItem.Size = new System.Drawing.Size(99, 25);
-            this.onlineHelpToolStripMenuItem.Text = "online help";
             // 
             // Nikos_heat
             // 
