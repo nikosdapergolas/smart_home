@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.Timers;
 
 
 namespace Smart_home
@@ -19,67 +20,54 @@ namespace Smart_home
         Random rand = new Random(Guid.NewGuid().GetHashCode());
         
         public manakos_smart_feeder()
-            {
-                
-                zimia = rand.Next(1, 60);
-
-                Timer timer1 = new Timer();
-                Timer timer2 = new Timer();
-
-                timer1.Start();
-            
-                timer2.Start();
-                InitializeComponent();
-            
-                
-                label1.Visible = true;
-                food = 100;
-                while (food <= 100 && food > 0)
-                {
-                    label1.Visible = true;
-                    label1.Text =  +food+ "%";
-                    pictureBox1.Visible = true;
-                    if (food <= 50)
-                    {
-                    
-                        pictureBox1.BackgroundImage =Image.FromFile(@"white.jpg");
-                        pictureBox4.Visible = true;
-                        MessageBox.Show("Στάθμη τροφής στα 50%");
-                    }
-                    if (food <= 25)
-                    {
-                        pictureBox4.BackgroundImage = Image.FromFile(@"white.jpg");
-                        pictureBox3.Visible = true;
-                        MessageBox.Show("Στάθμη τροφής στα 25%");
-                    }
+        {
+            InitializeComponent();
+            food = 100;
+            //Timer timer1 = new Timer();
+            //Timer timer2 = new Timer();
+            //Timer timer3 = new Timer();
 
 
-            }
+            timer1.Start();
+            timer3.Start();
+            timer2.Start();
+            button9.Text = +food + "%";
+
+
+
         }
         
 
+            
+            
         private void manakos_smart_feeder_Load(object sender, EventArgs e)
         {
             
 
-        }
 
-        private void time_tick(object sender, EventArgs e)
-        {
-            //evala to timer na xtipaei ana 8 ores, p kata meso oro trone ta katikidia 
-            if (food <= 100 && food > 0)
-            {
-                food = food - 15;
-                richTextBox1.Text = "Εναπόθεση τροφής ";
-                SoundPlayer ding = new SoundPlayer(@"triangle.wav");
-                ding.Play();
+            
 
-            }
+
+
+
+
         }
+        
+        
+
+        
+
+        
+
+
+        
 
         private void activo_tick(object sender, EventArgs e)
         {
-            if(zimia==20)
+            zimia = rand.Next(1, 60);
+
+
+            if (zimia==20)
             {
                 richTextBox1.Text = "Το ζωάκι έφαγε όλο το φαγητό του ";
 
@@ -127,6 +115,7 @@ namespace Smart_home
         private void button1_Click(object sender, EventArgs e)
         {
             food = 100;
+
         }
 
         private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -134,6 +123,9 @@ namespace Smart_home
             this.Close();
             Form2 form2 = new Form2();
             form2.Show();
+            timer1.Stop();
+            timer3.Stop();
+            timer2.Stop();
         }
 
         private void exitApplicationToolStripMenuItem_Click(object sender, EventArgs e)
@@ -148,6 +140,54 @@ namespace Smart_home
             manakos.Show();
         }
 
-    
+       
+        
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+
+            
+            if (food <= 50)
+            {
+
+                pictureBox1.BackgroundImage = Image.FromFile(@"white.jpg");
+                pictureBox4.Visible = true;
+                MessageBox.Show("Στάθμη τροφής στα 50%");
+            }
+            if (food <= 25)
+            {
+                pictureBox4.BackgroundImage = Image.FromFile(@"white.jpg");
+                pictureBox3.Visible = true;
+                MessageBox.Show("Στάθμη τροφής στα 25%");
+            }
+            if (food == 3)
+            {
+                MessageBox.Show("Στάθμη τροφής στα 0% είσάγεται τροφή και πατήστε 'Γεμισμα ταίστρας' ");
+                timer3.Stop();
+            }
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            
+            //evala to timer na xtipaei ana 8 ores, p kata meso oro trone ta katikidia 
+            if (food <= 100 && food > 0)
+            {
+                food = food - 15;
+                richTextBox1.Text = "Εναπόθεση τροφής ";
+                SoundPlayer ding = new SoundPlayer(@"triangle.wav");
+                ding.Play();
+
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //profanos den boro na dimiourghso fonitikh sinomilia me to zoo 
+            richTextBox1.Text = "Πραγματοποίηση Συνομιλίας ";
+            SoundPlayer ding = new SoundPlayer(@"triangle.wav");
+            ding.Play();
+        }
     }
 }

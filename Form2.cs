@@ -12,6 +12,7 @@ namespace Smart_home
 {
     public partial class Form2 : Form
     {
+        
         public Form2()
         {
             InitializeComponent();
@@ -169,6 +170,8 @@ namespace Smart_home
         {
             this.Close();
             manakos_smart_feeder h = new manakos_smart_feeder();
+          
+
             h.Show();
             
         }

@@ -52,6 +52,8 @@ namespace Smart_home
             this.onlineHelpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitApplicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.onlineHelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -94,15 +96,17 @@ namespace Smart_home
             this.button3.TabIndex = 6;
             this.button3.Text = "Φωνητική Συνομιλία ";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 28800000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // timer2
             // 
-            this.timer2.Interval = 60000;
+            this.timer2.Interval = 6000;
             this.timer2.Tick += new System.EventHandler(this.activo_tick);
             // 
             // textBox1
@@ -116,7 +120,7 @@ namespace Smart_home
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(191, 85);
+            this.label1.Location = new System.Drawing.Point(181, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 8;
@@ -279,6 +283,19 @@ namespace Smart_home
             this.onlineHelpToolStripMenuItem.Size = new System.Drawing.Size(99, 25);
             this.onlineHelpToolStripMenuItem.Text = "online help";
             // 
+            // timer3
+            // 
+            this.timer3.Interval = 1000;
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(165, 32);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 23);
+            this.button9.TabIndex = 24;
+            this.button9.UseVisualStyleBackColor = true;
+            // 
             // manakos_smart_feeder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -286,6 +303,7 @@ namespace Smart_home
             this.BackColor = System.Drawing.Color.Cyan;
             this.BackgroundImage = global::Smart_home.Properties.Resources.cato;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.pictureBox3);
@@ -342,5 +360,7 @@ namespace Smart_home
         private System.Windows.Forms.ToolStripMenuItem onlineHelpToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem exitApplicationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem onlineHelpToolStripMenuItem;
+        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Button button9;
     }
 }

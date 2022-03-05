@@ -63,6 +63,15 @@ namespace Smart_home
                 button5.Visible = true;
                 richTextBox1.Text = "Τοποθεσία κατοικιδίου:Δωμάτιο2";
             }
+            else
+            {
+                button1.Visible = false;
+                button2.Visible = true;
+                button3.Visible = false;
+                button4.Visible = false;
+                button5.Visible = false;
+                richTextBox1.Text = "Τοποθεσία κατοικιδίου:Σαλόνι";
+            }
         }
 
         private void manakos_pet_activity_Load(object sender, EventArgs e)
@@ -73,7 +82,7 @@ namespace Smart_home
         private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form2 form2 = new Form2();
+            manakos_smart_feeder form2 = new manakos_smart_feeder();
             form2.Show();
         }
 

@@ -19,6 +19,7 @@ namespace Smart_home
         public static bool toilet_heat_panel_active = false;
         public static bool bathroom_heat_panel_active = false;*/
         public static bool heat_panel_is_active = false;
+        
         public static bool bedroom1_heat_is_on = false;
         public static bool bedroom2_heat_is_on = false;
         public static bool living_room_heat_is_on = false;
