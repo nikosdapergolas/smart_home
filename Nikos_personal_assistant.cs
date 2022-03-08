@@ -42,5 +42,10 @@ namespace Smart_home
             Nikos_assistant_activities_showing activities = new Nikos_assistant_activities_showing();
             activities.Show();
         }
+
+        private void Nikos_personal_assistant_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

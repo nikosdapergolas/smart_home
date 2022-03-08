@@ -19,9 +19,9 @@ namespace Smart_home
 
         private void Nikos_assistant_activities_showing_Load(object sender, EventArgs e)
         {
-            label1.Text = Nikos_assistant_activities_choosing.monday1;
-            label2.Text = Nikos_assistant_activities_choosing.monday2;
-            label3.Text = Nikos_assistant_activities_choosing.monday3;
+            //label1.Text = Nikos_assistant_activities_choosing.monday1;
+            //label2.Text = Nikos_assistant_activities_choosing.monday2;
+            //label3.Text = Nikos_assistant_activities_choosing.monday3;
         }
     }
 }
