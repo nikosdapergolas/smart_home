@@ -27,8 +27,9 @@ namespace Smart_home
             if (lightsOn == true)
             {
                 label3.Text = "Κλείσιμο";
+                this.BackgroundImage = Smart_home.Properties.Resources.kitchen_lights_on;
                 pictureBox1.Image = Properties.Resources.lightbulb_open;
-                if (trackBar1.Value == 0)
+                /*if (trackBar1.Value == 0)
                 {
                     this.BackgroundImage = Smart_home.Properties.Resources.kitchen_lights_on_0;
                 }
@@ -71,7 +72,7 @@ namespace Smart_home
                 else
                 {
                     this.BackgroundImage = Smart_home.Properties.Resources.kitchen_lights_on;
-                }
+                }*/
 
             }
             else
@@ -118,8 +119,9 @@ namespace Smart_home
             {
                 lightsOn = true;
                 label3.Text = "Κλείσιμο";
+                this.BackgroundImage = Properties.Resources.kitchen_lights_on;
                 pictureBox1.Image = Properties.Resources.lightbulb_open;
-                if (trackBar1.Value == 0)
+                /*if (trackBar1.Value == 0)
                 {
                     this.BackgroundImage = Smart_home.Properties.Resources.kitchen_lights_on_0;
                 }
@@ -162,13 +164,13 @@ namespace Smart_home
                 else
                 {
                     this.BackgroundImage = Smart_home.Properties.Resources.kitchen_lights_on;
-                }
+                }*/
             }
         }
 
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
-            if (lightsOn == true)
+            /*if (lightsOn == true)
             {
                 if (trackBar1.Value == 0)
                 {
@@ -214,7 +216,7 @@ namespace Smart_home
                 {
                     this.BackgroundImage = Smart_home.Properties.Resources.kitchen_lights_on;
                 }
-            }
+            }*/
         }
     }
 }

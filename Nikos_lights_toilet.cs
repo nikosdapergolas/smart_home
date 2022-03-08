@@ -45,5 +45,10 @@ namespace Smart_home
             Nikos_lights lights = new Nikos_lights();
             lights.Show();
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
