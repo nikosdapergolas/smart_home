@@ -64,7 +64,7 @@ namespace Smart_home
             // 
             // trackBar1
             // 
-            this.trackBar1.Location = new System.Drawing.Point(773, 166);
+            this.trackBar1.Location = new System.Drawing.Point(773, 164);
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(115, 45);
             this.trackBar1.TabIndex = 5;

@@ -121,12 +121,13 @@ namespace Smart_home
 
         private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Form2 form2 = new Form2();
-            form2.Show();
             timer1.Stop();
             timer3.Stop();
             timer2.Stop();
+            this.Close();
+            Form2 form2 = new Form2();
+            form2.Show();
+            
         }
 
         private void exitApplicationToolStripMenuItem_Click(object sender, EventArgs e)
@@ -189,6 +190,26 @@ namespace Smart_home
             richTextBox1.Text = "Πραγματοποίηση Συνομιλίας ";
             SoundPlayer ding = new SoundPlayer(@"triangle.wav");
             ding.Play();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
