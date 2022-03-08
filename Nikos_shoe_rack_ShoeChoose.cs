@@ -16,5 +16,10 @@ namespace Smart_home
         {
             InitializeComponent();
         }
+
+        private void Nikos_shoe_rack_ShoeChoose_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
