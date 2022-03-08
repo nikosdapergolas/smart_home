@@ -312,6 +312,16 @@
     <None Include="Resources\living_room_lights_on.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\living_room_lights_on_9.jpg" />
+    <None Include="Resources\living_room_lights_on_8.jpg" />
+    <None Include="Resources\living_room_lights_on_7.jpg" />
+    <None Include="Resources\living_room_lights_on_6.jpg" />
+    <None Include="Resources\living_room_lights_on_5.jpg" />
+    <None Include="Resources\living_room_lights_on_4.jpg" />
+    <None Include="Resources\living_room_lights_on_3.jpg" />
+    <None Include="Resources\living_room_lights_on_2.jpg" />
+    <None Include="Resources\living_room_lights_on_1.jpg" />
+    <None Include="Resources\living_room_lights_on_0.jpg" />
     <None Include="Resources\ShoeStack.jpg" />
     <None Include="Resources\TVOFF.jpg" />
     <None Include="Resources\TVON.jpg" />

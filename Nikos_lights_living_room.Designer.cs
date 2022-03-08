@@ -139,6 +139,7 @@ namespace Smart_home
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // trackBar1
             // 
@@ -147,6 +148,7 @@ namespace Smart_home
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(115, 45);
             this.trackBar1.TabIndex = 5;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // Nikos_lights_living_room
             // 
