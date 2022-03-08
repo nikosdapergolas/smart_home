@@ -19,7 +19,21 @@ namespace Smart_home
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("hello world");
+            this.Close();
+            Nikos_assistant_day_choosing day = new Nikos_assistant_day_choosing();
+            day.Show();
+        }
+
+        private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 form = new Form2();
+            form.Show();
+        }
+
+        private void exitApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

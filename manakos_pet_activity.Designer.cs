@@ -162,6 +162,7 @@ namespace Smart_home
             this.BackgroundImage = global::Smart_home.Properties.Resources.apartment_overhead_view;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(838, 580);
+            this.ControlBox = false;
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);

@@ -307,6 +307,7 @@ namespace Smart_home
             this.BackColor = System.Drawing.Color.Cyan;
             this.BackgroundImage = global::Smart_home.Properties.Resources.cato;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.button9);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.textBox2);
