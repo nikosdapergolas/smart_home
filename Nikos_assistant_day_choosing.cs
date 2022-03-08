@@ -32,49 +32,49 @@ namespace Smart_home
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
-            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button1.Text);
+            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button1.Text,1);
             activity.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button2.Text);
+            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button2.Text,2);
             activity.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
-            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button3.Text);
+            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button3.Text,3);
             activity.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             this.Close();
-            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button4.Text);
+            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button4.Text,4);
             activity.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             this.Close();
-            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button5.Text);
+            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button5.Text,5);
             activity.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             this.Close();
-            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button6.Text);
+            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button6.Text,6);
             activity.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             this.Close();
-            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button7.Text);
+            Nikos_assistant_activities_choosing activity = new Nikos_assistant_activities_choosing(button7.Text,7);
             activity.Show();
         }
 
