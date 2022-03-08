@@ -12,6 +12,20 @@ namespace Smart_home
 {
     public partial class Nikos_lights : Form
     {
+
+        public static bool bedroom1_lightsOn = true;
+        public static int bedroom1_trackbar_value = 10;
+        public static bool living_room_lightsOn = true;
+        public static int living_room_trackbar_value = 10;
+        public static bool kitchen_lightsOn = true;
+        public static int kitchen_trackbar_value = 10;
+        public static bool toilet_lightsOn = true;
+        public static int toilet_trackbar_value = 10;
+        public static bool bathroom_lightsOn = true;
+        public static int bathroom_trackbar_value = 10;
+        public static bool bedroom2_lightsOn = true;
+        public static int bedroom2_trackbar_value = 10;
+
         public Nikos_lights()
         {
             InitializeComponent();

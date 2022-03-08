@@ -423,6 +423,26 @@ namespace Smart_home.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lightbulb_closed {
+            get {
+                object obj = ResourceManager.GetObject("lightbulb_closed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lightbulb_open {
+            get {
+                object obj = ResourceManager.GetObject("lightbulb_open", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lightbulb2 {
             get {
                 object obj = ResourceManager.GetObject("lightbulb2", resourceCulture);

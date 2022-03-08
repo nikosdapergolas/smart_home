@@ -295,4 +295,10 @@
   <data name="ShoeStack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ShoeStack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="lightbulb_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lightbulb_closed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lightbulb_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lightbulb_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -357,6 +357,8 @@
     <None Include="Resources\cato.jpg" />
     <None Include="Resources\DogEmoji.jpg" />
     <None Include="Resources\akiba.png" />
+    <None Include="Resources\lightbulb_closed.png" />
+    <None Include="Resources\lightbulb_open.png" />
     <Content Include="Resources\living_room_lights_off.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
