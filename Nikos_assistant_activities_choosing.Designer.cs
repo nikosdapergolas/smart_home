@@ -29,6 +29,7 @@ namespace Smart_home
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Nikos_assistant_activities_choosing));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.onlineHelpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.onlineHelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,9 +73,9 @@ namespace Smart_home
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
@@ -142,10 +143,95 @@ namespace Smart_home
             this.button3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.radioButton55 = new System.Windows.Forms.RadioButton();
             this.radioButton52 = new System.Windows.Forms.RadioButton();
             this.radioButton53 = new System.Windows.Forms.RadioButton();
             this.radioButton54 = new System.Windows.Forms.RadioButton();
-            this.radioButton55 = new System.Windows.Forms.RadioButton();
+            this.button4 = new System.Windows.Forms.Button();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.radioButton56 = new System.Windows.Forms.RadioButton();
+            this.radioButton57 = new System.Windows.Forms.RadioButton();
+            this.radioButton58 = new System.Windows.Forms.RadioButton();
+            this.radioButton59 = new System.Windows.Forms.RadioButton();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.radioButton60 = new System.Windows.Forms.RadioButton();
+            this.radioButton61 = new System.Windows.Forms.RadioButton();
+            this.radioButton62 = new System.Windows.Forms.RadioButton();
+            this.radioButton63 = new System.Windows.Forms.RadioButton();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.radioButton64 = new System.Windows.Forms.RadioButton();
+            this.radioButton65 = new System.Windows.Forms.RadioButton();
+            this.radioButton66 = new System.Windows.Forms.RadioButton();
+            this.radioButton67 = new System.Windows.Forms.RadioButton();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.radioButton68 = new System.Windows.Forms.RadioButton();
+            this.radioButton69 = new System.Windows.Forms.RadioButton();
+            this.radioButton70 = new System.Windows.Forms.RadioButton();
+            this.radioButton71 = new System.Windows.Forms.RadioButton();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.radioButton72 = new System.Windows.Forms.RadioButton();
+            this.radioButton73 = new System.Windows.Forms.RadioButton();
+            this.radioButton74 = new System.Windows.Forms.RadioButton();
+            this.radioButton75 = new System.Windows.Forms.RadioButton();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.radioButton76 = new System.Windows.Forms.RadioButton();
+            this.radioButton77 = new System.Windows.Forms.RadioButton();
+            this.radioButton78 = new System.Windows.Forms.RadioButton();
+            this.radioButton79 = new System.Windows.Forms.RadioButton();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.radioButton80 = new System.Windows.Forms.RadioButton();
+            this.radioButton81 = new System.Windows.Forms.RadioButton();
+            this.radioButton82 = new System.Windows.Forms.RadioButton();
+            this.radioButton83 = new System.Windows.Forms.RadioButton();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.radioButton84 = new System.Windows.Forms.RadioButton();
+            this.radioButton85 = new System.Windows.Forms.RadioButton();
+            this.radioButton86 = new System.Windows.Forms.RadioButton();
+            this.radioButton87 = new System.Windows.Forms.RadioButton();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.radioButton88 = new System.Windows.Forms.RadioButton();
+            this.radioButton89 = new System.Windows.Forms.RadioButton();
+            this.radioButton90 = new System.Windows.Forms.RadioButton();
+            this.radioButton91 = new System.Windows.Forms.RadioButton();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.radioButton92 = new System.Windows.Forms.RadioButton();
+            this.radioButton93 = new System.Windows.Forms.RadioButton();
+            this.radioButton94 = new System.Windows.Forms.RadioButton();
+            this.radioButton95 = new System.Windows.Forms.RadioButton();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.radioButton96 = new System.Windows.Forms.RadioButton();
+            this.radioButton97 = new System.Windows.Forms.RadioButton();
+            this.radioButton98 = new System.Windows.Forms.RadioButton();
+            this.radioButton99 = new System.Windows.Forms.RadioButton();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.radioButton100 = new System.Windows.Forms.RadioButton();
+            this.radioButton101 = new System.Windows.Forms.RadioButton();
+            this.radioButton102 = new System.Windows.Forms.RadioButton();
+            this.radioButton103 = new System.Windows.Forms.RadioButton();
+            this.panel31 = new System.Windows.Forms.Panel();
+            this.radioButton104 = new System.Windows.Forms.RadioButton();
+            this.radioButton105 = new System.Windows.Forms.RadioButton();
+            this.radioButton106 = new System.Windows.Forms.RadioButton();
+            this.radioButton107 = new System.Windows.Forms.RadioButton();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.radioButton108 = new System.Windows.Forms.RadioButton();
+            this.radioButton109 = new System.Windows.Forms.RadioButton();
+            this.radioButton110 = new System.Windows.Forms.RadioButton();
+            this.radioButton111 = new System.Windows.Forms.RadioButton();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.radioButton112 = new System.Windows.Forms.RadioButton();
+            this.radioButton113 = new System.Windows.Forms.RadioButton();
+            this.radioButton114 = new System.Windows.Forms.RadioButton();
+            this.radioButton115 = new System.Windows.Forms.RadioButton();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.radioButton116 = new System.Windows.Forms.RadioButton();
+            this.radioButton117 = new System.Windows.Forms.RadioButton();
+            this.radioButton118 = new System.Windows.Forms.RadioButton();
+            this.radioButton119 = new System.Windows.Forms.RadioButton();
+            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -165,6 +251,23 @@ namespace Smart_home
             this.panel16.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
+            this.panel19.SuspendLayout();
+            this.panel20.SuspendLayout();
+            this.panel21.SuspendLayout();
+            this.panel22.SuspendLayout();
+            this.panel23.SuspendLayout();
+            this.panel24.SuspendLayout();
+            this.panel25.SuspendLayout();
+            this.panel26.SuspendLayout();
+            this.panel27.SuspendLayout();
+            this.panel28.SuspendLayout();
+            this.panel29.SuspendLayout();
+            this.panel30.SuspendLayout();
+            this.panel31.SuspendLayout();
+            this.panel32.SuspendLayout();
+            this.panel33.SuspendLayout();
+            this.panel34.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -179,7 +282,7 @@ namespace Smart_home
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1227, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(1121, 29);
             this.menuStrip1.TabIndex = 23;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -495,20 +598,23 @@ namespace Smart_home
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(72, 570);
+            this.button1.Location = new System.Drawing.Point(467, 570);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(128, 54);
             this.button1.TabIndex = 72;
             this.button1.Text = "Υποβολή";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
+            this.button1.MouseHover += new System.EventHandler(this.button1_MouseHover);
             // 
             // label25
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(66, 38);
+            this.label25.Location = new System.Drawing.Point(170, 38);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(118, 31);
             this.label25.TabIndex = 73;
@@ -545,20 +651,19 @@ namespace Smart_home
             this.panel1.Size = new System.Drawing.Size(235, 24);
             this.panel1.TabIndex = 76;
             // 
-            // radioButton1
+            // radioButton3
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.Color.Black;
-            this.radioButton1.Location = new System.Drawing.Point(3, 1);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(71, 19);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Επίσημο";
-            this.radioButton1.UseVisualStyleBackColor = false;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.ForeColor = System.Drawing.Color.Black;
+            this.radioButton3.Location = new System.Drawing.Point(159, 1);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(67, 19);
+            this.radioButton3.TabIndex = 3;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Χαλαρό";
+            this.radioButton3.UseVisualStyleBackColor = false;
             // 
             // radioButton2
             // 
@@ -574,19 +679,20 @@ namespace Smart_home
             this.radioButton2.Text = "Αθλητικό";
             this.radioButton2.UseVisualStyleBackColor = false;
             // 
-            // radioButton3
+            // radioButton1
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.ForeColor = System.Drawing.Color.Black;
-            this.radioButton3.Location = new System.Drawing.Point(159, 1);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(67, 19);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Χαλαρό";
-            this.radioButton3.UseVisualStyleBackColor = false;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.ForeColor = System.Drawing.Color.Black;
+            this.radioButton1.Location = new System.Drawing.Point(3, 1);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(71, 19);
+            this.radioButton1.TabIndex = 1;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Επίσημο";
+            this.radioButton1.UseVisualStyleBackColor = false;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // panel2
             // 
@@ -1452,6 +1558,20 @@ namespace Smart_home
             this.panel18.Size = new System.Drawing.Size(341, 24);
             this.panel18.TabIndex = 77;
             // 
+            // radioButton55
+            // 
+            this.radioButton55.AutoSize = true;
+            this.radioButton55.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton55.ForeColor = System.Drawing.Color.Black;
+            this.radioButton55.Location = new System.Drawing.Point(271, 1);
+            this.radioButton55.Name = "radioButton55";
+            this.radioButton55.Size = new System.Drawing.Size(58, 19);
+            this.radioButton55.TabIndex = 4;
+            this.radioButton55.TabStop = true;
+            this.radioButton55.Text = "Πόδια";
+            this.radioButton55.UseVisualStyleBackColor = false;
+            // 
             // radioButton52
             // 
             this.radioButton52.AutoSize = true;
@@ -1494,26 +1614,1164 @@ namespace Smart_home
             this.radioButton54.Text = "Αυτοκίνητο";
             this.radioButton54.UseVisualStyleBackColor = false;
             // 
-            // radioButton55
+            // button4
             // 
-            this.radioButton55.AutoSize = true;
-            this.radioButton55.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton55.ForeColor = System.Drawing.Color.Black;
-            this.radioButton55.Location = new System.Drawing.Point(271, 1);
-            this.radioButton55.Name = "radioButton55";
-            this.radioButton55.Size = new System.Drawing.Size(58, 19);
-            this.radioButton55.TabIndex = 4;
-            this.radioButton55.TabStop = true;
-            this.radioButton55.Text = "Πόδια";
-            this.radioButton55.UseVisualStyleBackColor = false;
+            this.button4.BackColor = System.Drawing.Color.Black;
+            this.button4.Enabled = false;
+            this.button4.Location = new System.Drawing.Point(6, 72);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(1073, 10);
+            this.button4.TabIndex = 86;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // panel19
+            // 
+            this.panel19.Controls.Add(this.radioButton56);
+            this.panel19.Controls.Add(this.radioButton57);
+            this.panel19.Controls.Add(this.radioButton58);
+            this.panel19.Controls.Add(this.radioButton59);
+            this.panel19.Location = new System.Drawing.Point(738, 118);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(341, 24);
+            this.panel19.TabIndex = 78;
+            // 
+            // radioButton56
+            // 
+            this.radioButton56.AutoSize = true;
+            this.radioButton56.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton56.ForeColor = System.Drawing.Color.Black;
+            this.radioButton56.Location = new System.Drawing.Point(271, 1);
+            this.radioButton56.Name = "radioButton56";
+            this.radioButton56.Size = new System.Drawing.Size(58, 19);
+            this.radioButton56.TabIndex = 4;
+            this.radioButton56.TabStop = true;
+            this.radioButton56.Text = "Πόδια";
+            this.radioButton56.UseVisualStyleBackColor = false;
+            // 
+            // radioButton57
+            // 
+            this.radioButton57.AutoSize = true;
+            this.radioButton57.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton57.ForeColor = System.Drawing.Color.Black;
+            this.radioButton57.Location = new System.Drawing.Point(185, 1);
+            this.radioButton57.Name = "radioButton57";
+            this.radioButton57.Size = new System.Drawing.Size(80, 19);
+            this.radioButton57.TabIndex = 3;
+            this.radioButton57.TabStop = true;
+            this.radioButton57.Text = "Ποδήλατο";
+            this.radioButton57.UseVisualStyleBackColor = false;
+            // 
+            // radioButton58
+            // 
+            this.radioButton58.AutoSize = true;
+            this.radioButton58.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton58.ForeColor = System.Drawing.Color.Black;
+            this.radioButton58.Location = new System.Drawing.Point(93, 1);
+            this.radioButton58.Name = "radioButton58";
+            this.radioButton58.Size = new System.Drawing.Size(86, 19);
+            this.radioButton58.TabIndex = 2;
+            this.radioButton58.TabStop = true;
+            this.radioButton58.Text = "Λεωφορείο";
+            this.radioButton58.UseVisualStyleBackColor = false;
+            // 
+            // radioButton59
+            // 
+            this.radioButton59.AutoSize = true;
+            this.radioButton59.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton59.ForeColor = System.Drawing.Color.Black;
+            this.radioButton59.Location = new System.Drawing.Point(3, 1);
+            this.radioButton59.Name = "radioButton59";
+            this.radioButton59.Size = new System.Drawing.Size(84, 19);
+            this.radioButton59.TabIndex = 1;
+            this.radioButton59.TabStop = true;
+            this.radioButton59.Text = "Αυτοκίνητο";
+            this.radioButton59.UseVisualStyleBackColor = false;
+            // 
+            // panel20
+            // 
+            this.panel20.Controls.Add(this.radioButton60);
+            this.panel20.Controls.Add(this.radioButton61);
+            this.panel20.Controls.Add(this.radioButton62);
+            this.panel20.Controls.Add(this.radioButton63);
+            this.panel20.Location = new System.Drawing.Point(738, 140);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(341, 24);
+            this.panel20.TabIndex = 79;
+            // 
+            // radioButton60
+            // 
+            this.radioButton60.AutoSize = true;
+            this.radioButton60.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton60.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton60.ForeColor = System.Drawing.Color.Black;
+            this.radioButton60.Location = new System.Drawing.Point(271, 1);
+            this.radioButton60.Name = "radioButton60";
+            this.radioButton60.Size = new System.Drawing.Size(58, 19);
+            this.radioButton60.TabIndex = 4;
+            this.radioButton60.TabStop = true;
+            this.radioButton60.Text = "Πόδια";
+            this.radioButton60.UseVisualStyleBackColor = false;
+            // 
+            // radioButton61
+            // 
+            this.radioButton61.AutoSize = true;
+            this.radioButton61.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton61.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton61.ForeColor = System.Drawing.Color.Black;
+            this.radioButton61.Location = new System.Drawing.Point(185, 1);
+            this.radioButton61.Name = "radioButton61";
+            this.radioButton61.Size = new System.Drawing.Size(80, 19);
+            this.radioButton61.TabIndex = 3;
+            this.radioButton61.TabStop = true;
+            this.radioButton61.Text = "Ποδήλατο";
+            this.radioButton61.UseVisualStyleBackColor = false;
+            // 
+            // radioButton62
+            // 
+            this.radioButton62.AutoSize = true;
+            this.radioButton62.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton62.ForeColor = System.Drawing.Color.Black;
+            this.radioButton62.Location = new System.Drawing.Point(93, 1);
+            this.radioButton62.Name = "radioButton62";
+            this.radioButton62.Size = new System.Drawing.Size(86, 19);
+            this.radioButton62.TabIndex = 2;
+            this.radioButton62.TabStop = true;
+            this.radioButton62.Text = "Λεωφορείο";
+            this.radioButton62.UseVisualStyleBackColor = false;
+            // 
+            // radioButton63
+            // 
+            this.radioButton63.AutoSize = true;
+            this.radioButton63.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton63.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton63.ForeColor = System.Drawing.Color.Black;
+            this.radioButton63.Location = new System.Drawing.Point(3, 1);
+            this.radioButton63.Name = "radioButton63";
+            this.radioButton63.Size = new System.Drawing.Size(84, 19);
+            this.radioButton63.TabIndex = 1;
+            this.radioButton63.TabStop = true;
+            this.radioButton63.Text = "Αυτοκίνητο";
+            this.radioButton63.UseVisualStyleBackColor = false;
+            // 
+            // panel21
+            // 
+            this.panel21.Controls.Add(this.radioButton64);
+            this.panel21.Controls.Add(this.radioButton65);
+            this.panel21.Controls.Add(this.radioButton66);
+            this.panel21.Controls.Add(this.radioButton67);
+            this.panel21.Location = new System.Drawing.Point(738, 166);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(341, 24);
+            this.panel21.TabIndex = 79;
+            // 
+            // radioButton64
+            // 
+            this.radioButton64.AutoSize = true;
+            this.radioButton64.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton64.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton64.ForeColor = System.Drawing.Color.Black;
+            this.radioButton64.Location = new System.Drawing.Point(271, 1);
+            this.radioButton64.Name = "radioButton64";
+            this.radioButton64.Size = new System.Drawing.Size(58, 19);
+            this.radioButton64.TabIndex = 4;
+            this.radioButton64.TabStop = true;
+            this.radioButton64.Text = "Πόδια";
+            this.radioButton64.UseVisualStyleBackColor = false;
+            // 
+            // radioButton65
+            // 
+            this.radioButton65.AutoSize = true;
+            this.radioButton65.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton65.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton65.ForeColor = System.Drawing.Color.Black;
+            this.radioButton65.Location = new System.Drawing.Point(185, 1);
+            this.radioButton65.Name = "radioButton65";
+            this.radioButton65.Size = new System.Drawing.Size(80, 19);
+            this.radioButton65.TabIndex = 3;
+            this.radioButton65.TabStop = true;
+            this.radioButton65.Text = "Ποδήλατο";
+            this.radioButton65.UseVisualStyleBackColor = false;
+            // 
+            // radioButton66
+            // 
+            this.radioButton66.AutoSize = true;
+            this.radioButton66.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton66.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton66.ForeColor = System.Drawing.Color.Black;
+            this.radioButton66.Location = new System.Drawing.Point(93, 1);
+            this.radioButton66.Name = "radioButton66";
+            this.radioButton66.Size = new System.Drawing.Size(86, 19);
+            this.radioButton66.TabIndex = 2;
+            this.radioButton66.TabStop = true;
+            this.radioButton66.Text = "Λεωφορείο";
+            this.radioButton66.UseVisualStyleBackColor = false;
+            // 
+            // radioButton67
+            // 
+            this.radioButton67.AutoSize = true;
+            this.radioButton67.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton67.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton67.ForeColor = System.Drawing.Color.Black;
+            this.radioButton67.Location = new System.Drawing.Point(3, 1);
+            this.radioButton67.Name = "radioButton67";
+            this.radioButton67.Size = new System.Drawing.Size(84, 19);
+            this.radioButton67.TabIndex = 1;
+            this.radioButton67.TabStop = true;
+            this.radioButton67.Text = "Αυτοκίνητο";
+            this.radioButton67.UseVisualStyleBackColor = false;
+            // 
+            // panel22
+            // 
+            this.panel22.Controls.Add(this.radioButton68);
+            this.panel22.Controls.Add(this.radioButton69);
+            this.panel22.Controls.Add(this.radioButton70);
+            this.panel22.Controls.Add(this.radioButton71);
+            this.panel22.Location = new System.Drawing.Point(738, 192);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(341, 24);
+            this.panel22.TabIndex = 79;
+            // 
+            // radioButton68
+            // 
+            this.radioButton68.AutoSize = true;
+            this.radioButton68.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton68.ForeColor = System.Drawing.Color.Black;
+            this.radioButton68.Location = new System.Drawing.Point(271, 1);
+            this.radioButton68.Name = "radioButton68";
+            this.radioButton68.Size = new System.Drawing.Size(58, 19);
+            this.radioButton68.TabIndex = 4;
+            this.radioButton68.TabStop = true;
+            this.radioButton68.Text = "Πόδια";
+            this.radioButton68.UseVisualStyleBackColor = false;
+            // 
+            // radioButton69
+            // 
+            this.radioButton69.AutoSize = true;
+            this.radioButton69.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton69.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton69.ForeColor = System.Drawing.Color.Black;
+            this.radioButton69.Location = new System.Drawing.Point(185, 1);
+            this.radioButton69.Name = "radioButton69";
+            this.radioButton69.Size = new System.Drawing.Size(80, 19);
+            this.radioButton69.TabIndex = 3;
+            this.radioButton69.TabStop = true;
+            this.radioButton69.Text = "Ποδήλατο";
+            this.radioButton69.UseVisualStyleBackColor = false;
+            // 
+            // radioButton70
+            // 
+            this.radioButton70.AutoSize = true;
+            this.radioButton70.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton70.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton70.ForeColor = System.Drawing.Color.Black;
+            this.radioButton70.Location = new System.Drawing.Point(93, 1);
+            this.radioButton70.Name = "radioButton70";
+            this.radioButton70.Size = new System.Drawing.Size(86, 19);
+            this.radioButton70.TabIndex = 2;
+            this.radioButton70.TabStop = true;
+            this.radioButton70.Text = "Λεωφορείο";
+            this.radioButton70.UseVisualStyleBackColor = false;
+            // 
+            // radioButton71
+            // 
+            this.radioButton71.AutoSize = true;
+            this.radioButton71.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton71.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton71.ForeColor = System.Drawing.Color.Black;
+            this.radioButton71.Location = new System.Drawing.Point(3, 1);
+            this.radioButton71.Name = "radioButton71";
+            this.radioButton71.Size = new System.Drawing.Size(84, 19);
+            this.radioButton71.TabIndex = 1;
+            this.radioButton71.TabStop = true;
+            this.radioButton71.Text = "Αυτοκίνητο";
+            this.radioButton71.UseVisualStyleBackColor = false;
+            // 
+            // panel23
+            // 
+            this.panel23.Controls.Add(this.radioButton72);
+            this.panel23.Controls.Add(this.radioButton73);
+            this.panel23.Controls.Add(this.radioButton74);
+            this.panel23.Controls.Add(this.radioButton75);
+            this.panel23.Location = new System.Drawing.Point(738, 222);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(341, 24);
+            this.panel23.TabIndex = 79;
+            // 
+            // radioButton72
+            // 
+            this.radioButton72.AutoSize = true;
+            this.radioButton72.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton72.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton72.ForeColor = System.Drawing.Color.Black;
+            this.radioButton72.Location = new System.Drawing.Point(271, 1);
+            this.radioButton72.Name = "radioButton72";
+            this.radioButton72.Size = new System.Drawing.Size(58, 19);
+            this.radioButton72.TabIndex = 4;
+            this.radioButton72.TabStop = true;
+            this.radioButton72.Text = "Πόδια";
+            this.radioButton72.UseVisualStyleBackColor = false;
+            // 
+            // radioButton73
+            // 
+            this.radioButton73.AutoSize = true;
+            this.radioButton73.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton73.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton73.ForeColor = System.Drawing.Color.Black;
+            this.radioButton73.Location = new System.Drawing.Point(185, 1);
+            this.radioButton73.Name = "radioButton73";
+            this.radioButton73.Size = new System.Drawing.Size(80, 19);
+            this.radioButton73.TabIndex = 3;
+            this.radioButton73.TabStop = true;
+            this.radioButton73.Text = "Ποδήλατο";
+            this.radioButton73.UseVisualStyleBackColor = false;
+            // 
+            // radioButton74
+            // 
+            this.radioButton74.AutoSize = true;
+            this.radioButton74.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton74.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton74.ForeColor = System.Drawing.Color.Black;
+            this.radioButton74.Location = new System.Drawing.Point(93, 1);
+            this.radioButton74.Name = "radioButton74";
+            this.radioButton74.Size = new System.Drawing.Size(86, 19);
+            this.radioButton74.TabIndex = 2;
+            this.radioButton74.TabStop = true;
+            this.radioButton74.Text = "Λεωφορείο";
+            this.radioButton74.UseVisualStyleBackColor = false;
+            // 
+            // radioButton75
+            // 
+            this.radioButton75.AutoSize = true;
+            this.radioButton75.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton75.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton75.ForeColor = System.Drawing.Color.Black;
+            this.radioButton75.Location = new System.Drawing.Point(3, 1);
+            this.radioButton75.Name = "radioButton75";
+            this.radioButton75.Size = new System.Drawing.Size(84, 19);
+            this.radioButton75.TabIndex = 1;
+            this.radioButton75.TabStop = true;
+            this.radioButton75.Text = "Αυτοκίνητο";
+            this.radioButton75.UseVisualStyleBackColor = false;
+            // 
+            // panel24
+            // 
+            this.panel24.Controls.Add(this.radioButton76);
+            this.panel24.Controls.Add(this.radioButton77);
+            this.panel24.Controls.Add(this.radioButton78);
+            this.panel24.Controls.Add(this.radioButton79);
+            this.panel24.Location = new System.Drawing.Point(738, 252);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(341, 24);
+            this.panel24.TabIndex = 87;
+            // 
+            // radioButton76
+            // 
+            this.radioButton76.AutoSize = true;
+            this.radioButton76.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton76.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton76.ForeColor = System.Drawing.Color.Black;
+            this.radioButton76.Location = new System.Drawing.Point(271, 1);
+            this.radioButton76.Name = "radioButton76";
+            this.radioButton76.Size = new System.Drawing.Size(58, 19);
+            this.radioButton76.TabIndex = 4;
+            this.radioButton76.TabStop = true;
+            this.radioButton76.Text = "Πόδια";
+            this.radioButton76.UseVisualStyleBackColor = false;
+            // 
+            // radioButton77
+            // 
+            this.radioButton77.AutoSize = true;
+            this.radioButton77.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton77.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton77.ForeColor = System.Drawing.Color.Black;
+            this.radioButton77.Location = new System.Drawing.Point(185, 1);
+            this.radioButton77.Name = "radioButton77";
+            this.radioButton77.Size = new System.Drawing.Size(80, 19);
+            this.radioButton77.TabIndex = 3;
+            this.radioButton77.TabStop = true;
+            this.radioButton77.Text = "Ποδήλατο";
+            this.radioButton77.UseVisualStyleBackColor = false;
+            // 
+            // radioButton78
+            // 
+            this.radioButton78.AutoSize = true;
+            this.radioButton78.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton78.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton78.ForeColor = System.Drawing.Color.Black;
+            this.radioButton78.Location = new System.Drawing.Point(93, 1);
+            this.radioButton78.Name = "radioButton78";
+            this.radioButton78.Size = new System.Drawing.Size(86, 19);
+            this.radioButton78.TabIndex = 2;
+            this.radioButton78.TabStop = true;
+            this.radioButton78.Text = "Λεωφορείο";
+            this.radioButton78.UseVisualStyleBackColor = false;
+            // 
+            // radioButton79
+            // 
+            this.radioButton79.AutoSize = true;
+            this.radioButton79.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton79.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton79.ForeColor = System.Drawing.Color.Black;
+            this.radioButton79.Location = new System.Drawing.Point(3, 1);
+            this.radioButton79.Name = "radioButton79";
+            this.radioButton79.Size = new System.Drawing.Size(84, 19);
+            this.radioButton79.TabIndex = 1;
+            this.radioButton79.TabStop = true;
+            this.radioButton79.Text = "Αυτοκίνητο";
+            this.radioButton79.UseVisualStyleBackColor = false;
+            // 
+            // panel25
+            // 
+            this.panel25.Controls.Add(this.radioButton80);
+            this.panel25.Controls.Add(this.radioButton81);
+            this.panel25.Controls.Add(this.radioButton82);
+            this.panel25.Controls.Add(this.radioButton83);
+            this.panel25.Location = new System.Drawing.Point(738, 277);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(341, 24);
+            this.panel25.TabIndex = 79;
+            // 
+            // radioButton80
+            // 
+            this.radioButton80.AutoSize = true;
+            this.radioButton80.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton80.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton80.ForeColor = System.Drawing.Color.Black;
+            this.radioButton80.Location = new System.Drawing.Point(271, 1);
+            this.radioButton80.Name = "radioButton80";
+            this.radioButton80.Size = new System.Drawing.Size(58, 19);
+            this.radioButton80.TabIndex = 4;
+            this.radioButton80.TabStop = true;
+            this.radioButton80.Text = "Πόδια";
+            this.radioButton80.UseVisualStyleBackColor = false;
+            // 
+            // radioButton81
+            // 
+            this.radioButton81.AutoSize = true;
+            this.radioButton81.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton81.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton81.ForeColor = System.Drawing.Color.Black;
+            this.radioButton81.Location = new System.Drawing.Point(185, 1);
+            this.radioButton81.Name = "radioButton81";
+            this.radioButton81.Size = new System.Drawing.Size(80, 19);
+            this.radioButton81.TabIndex = 3;
+            this.radioButton81.TabStop = true;
+            this.radioButton81.Text = "Ποδήλατο";
+            this.radioButton81.UseVisualStyleBackColor = false;
+            // 
+            // radioButton82
+            // 
+            this.radioButton82.AutoSize = true;
+            this.radioButton82.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton82.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton82.ForeColor = System.Drawing.Color.Black;
+            this.radioButton82.Location = new System.Drawing.Point(93, 1);
+            this.radioButton82.Name = "radioButton82";
+            this.radioButton82.Size = new System.Drawing.Size(86, 19);
+            this.radioButton82.TabIndex = 2;
+            this.radioButton82.TabStop = true;
+            this.radioButton82.Text = "Λεωφορείο";
+            this.radioButton82.UseVisualStyleBackColor = false;
+            // 
+            // radioButton83
+            // 
+            this.radioButton83.AutoSize = true;
+            this.radioButton83.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton83.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton83.ForeColor = System.Drawing.Color.Black;
+            this.radioButton83.Location = new System.Drawing.Point(3, 1);
+            this.radioButton83.Name = "radioButton83";
+            this.radioButton83.Size = new System.Drawing.Size(84, 19);
+            this.radioButton83.TabIndex = 1;
+            this.radioButton83.TabStop = true;
+            this.radioButton83.Text = "Αυτοκίνητο";
+            this.radioButton83.UseVisualStyleBackColor = false;
+            // 
+            // panel26
+            // 
+            this.panel26.Controls.Add(this.radioButton84);
+            this.panel26.Controls.Add(this.radioButton85);
+            this.panel26.Controls.Add(this.radioButton86);
+            this.panel26.Controls.Add(this.radioButton87);
+            this.panel26.Location = new System.Drawing.Point(738, 301);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(341, 24);
+            this.panel26.TabIndex = 79;
+            // 
+            // radioButton84
+            // 
+            this.radioButton84.AutoSize = true;
+            this.radioButton84.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton84.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton84.ForeColor = System.Drawing.Color.Black;
+            this.radioButton84.Location = new System.Drawing.Point(271, 1);
+            this.radioButton84.Name = "radioButton84";
+            this.radioButton84.Size = new System.Drawing.Size(58, 19);
+            this.radioButton84.TabIndex = 4;
+            this.radioButton84.TabStop = true;
+            this.radioButton84.Text = "Πόδια";
+            this.radioButton84.UseVisualStyleBackColor = false;
+            // 
+            // radioButton85
+            // 
+            this.radioButton85.AutoSize = true;
+            this.radioButton85.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton85.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton85.ForeColor = System.Drawing.Color.Black;
+            this.radioButton85.Location = new System.Drawing.Point(185, 1);
+            this.radioButton85.Name = "radioButton85";
+            this.radioButton85.Size = new System.Drawing.Size(80, 19);
+            this.radioButton85.TabIndex = 3;
+            this.radioButton85.TabStop = true;
+            this.radioButton85.Text = "Ποδήλατο";
+            this.radioButton85.UseVisualStyleBackColor = false;
+            // 
+            // radioButton86
+            // 
+            this.radioButton86.AutoSize = true;
+            this.radioButton86.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton86.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton86.ForeColor = System.Drawing.Color.Black;
+            this.radioButton86.Location = new System.Drawing.Point(93, 1);
+            this.radioButton86.Name = "radioButton86";
+            this.radioButton86.Size = new System.Drawing.Size(86, 19);
+            this.radioButton86.TabIndex = 2;
+            this.radioButton86.TabStop = true;
+            this.radioButton86.Text = "Λεωφορείο";
+            this.radioButton86.UseVisualStyleBackColor = false;
+            // 
+            // radioButton87
+            // 
+            this.radioButton87.AutoSize = true;
+            this.radioButton87.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton87.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton87.ForeColor = System.Drawing.Color.Black;
+            this.radioButton87.Location = new System.Drawing.Point(3, 1);
+            this.radioButton87.Name = "radioButton87";
+            this.radioButton87.Size = new System.Drawing.Size(84, 19);
+            this.radioButton87.TabIndex = 1;
+            this.radioButton87.TabStop = true;
+            this.radioButton87.Text = "Αυτοκίνητο";
+            this.radioButton87.UseVisualStyleBackColor = false;
+            // 
+            // panel27
+            // 
+            this.panel27.Controls.Add(this.radioButton88);
+            this.panel27.Controls.Add(this.radioButton89);
+            this.panel27.Controls.Add(this.radioButton90);
+            this.panel27.Controls.Add(this.radioButton91);
+            this.panel27.Location = new System.Drawing.Point(738, 326);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(341, 24);
+            this.panel27.TabIndex = 79;
+            // 
+            // radioButton88
+            // 
+            this.radioButton88.AutoSize = true;
+            this.radioButton88.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton88.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton88.ForeColor = System.Drawing.Color.Black;
+            this.radioButton88.Location = new System.Drawing.Point(271, 1);
+            this.radioButton88.Name = "radioButton88";
+            this.radioButton88.Size = new System.Drawing.Size(58, 19);
+            this.radioButton88.TabIndex = 4;
+            this.radioButton88.TabStop = true;
+            this.radioButton88.Text = "Πόδια";
+            this.radioButton88.UseVisualStyleBackColor = false;
+            // 
+            // radioButton89
+            // 
+            this.radioButton89.AutoSize = true;
+            this.radioButton89.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton89.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton89.ForeColor = System.Drawing.Color.Black;
+            this.radioButton89.Location = new System.Drawing.Point(185, 1);
+            this.radioButton89.Name = "radioButton89";
+            this.radioButton89.Size = new System.Drawing.Size(80, 19);
+            this.radioButton89.TabIndex = 3;
+            this.radioButton89.TabStop = true;
+            this.radioButton89.Text = "Ποδήλατο";
+            this.radioButton89.UseVisualStyleBackColor = false;
+            // 
+            // radioButton90
+            // 
+            this.radioButton90.AutoSize = true;
+            this.radioButton90.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton90.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton90.ForeColor = System.Drawing.Color.Black;
+            this.radioButton90.Location = new System.Drawing.Point(93, 1);
+            this.radioButton90.Name = "radioButton90";
+            this.radioButton90.Size = new System.Drawing.Size(86, 19);
+            this.radioButton90.TabIndex = 2;
+            this.radioButton90.TabStop = true;
+            this.radioButton90.Text = "Λεωφορείο";
+            this.radioButton90.UseVisualStyleBackColor = false;
+            // 
+            // radioButton91
+            // 
+            this.radioButton91.AutoSize = true;
+            this.radioButton91.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton91.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton91.ForeColor = System.Drawing.Color.Black;
+            this.radioButton91.Location = new System.Drawing.Point(3, 1);
+            this.radioButton91.Name = "radioButton91";
+            this.radioButton91.Size = new System.Drawing.Size(84, 19);
+            this.radioButton91.TabIndex = 1;
+            this.radioButton91.TabStop = true;
+            this.radioButton91.Text = "Αυτοκίνητο";
+            this.radioButton91.UseVisualStyleBackColor = false;
+            // 
+            // panel28
+            // 
+            this.panel28.Controls.Add(this.radioButton92);
+            this.panel28.Controls.Add(this.radioButton93);
+            this.panel28.Controls.Add(this.radioButton94);
+            this.panel28.Controls.Add(this.radioButton95);
+            this.panel28.Location = new System.Drawing.Point(738, 352);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(341, 24);
+            this.panel28.TabIndex = 79;
+            // 
+            // radioButton92
+            // 
+            this.radioButton92.AutoSize = true;
+            this.radioButton92.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton92.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton92.ForeColor = System.Drawing.Color.Black;
+            this.radioButton92.Location = new System.Drawing.Point(271, 1);
+            this.radioButton92.Name = "radioButton92";
+            this.radioButton92.Size = new System.Drawing.Size(58, 19);
+            this.radioButton92.TabIndex = 4;
+            this.radioButton92.TabStop = true;
+            this.radioButton92.Text = "Πόδια";
+            this.radioButton92.UseVisualStyleBackColor = false;
+            // 
+            // radioButton93
+            // 
+            this.radioButton93.AutoSize = true;
+            this.radioButton93.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton93.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton93.ForeColor = System.Drawing.Color.Black;
+            this.radioButton93.Location = new System.Drawing.Point(185, 1);
+            this.radioButton93.Name = "radioButton93";
+            this.radioButton93.Size = new System.Drawing.Size(80, 19);
+            this.radioButton93.TabIndex = 3;
+            this.radioButton93.TabStop = true;
+            this.radioButton93.Text = "Ποδήλατο";
+            this.radioButton93.UseVisualStyleBackColor = false;
+            // 
+            // radioButton94
+            // 
+            this.radioButton94.AutoSize = true;
+            this.radioButton94.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton94.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton94.ForeColor = System.Drawing.Color.Black;
+            this.radioButton94.Location = new System.Drawing.Point(93, 1);
+            this.radioButton94.Name = "radioButton94";
+            this.radioButton94.Size = new System.Drawing.Size(86, 19);
+            this.radioButton94.TabIndex = 2;
+            this.radioButton94.TabStop = true;
+            this.radioButton94.Text = "Λεωφορείο";
+            this.radioButton94.UseVisualStyleBackColor = false;
+            // 
+            // radioButton95
+            // 
+            this.radioButton95.AutoSize = true;
+            this.radioButton95.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton95.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton95.ForeColor = System.Drawing.Color.Black;
+            this.radioButton95.Location = new System.Drawing.Point(3, 1);
+            this.radioButton95.Name = "radioButton95";
+            this.radioButton95.Size = new System.Drawing.Size(84, 19);
+            this.radioButton95.TabIndex = 1;
+            this.radioButton95.TabStop = true;
+            this.radioButton95.Text = "Αυτοκίνητο";
+            this.radioButton95.UseVisualStyleBackColor = false;
+            // 
+            // panel29
+            // 
+            this.panel29.Controls.Add(this.radioButton96);
+            this.panel29.Controls.Add(this.radioButton97);
+            this.panel29.Controls.Add(this.radioButton98);
+            this.panel29.Controls.Add(this.radioButton99);
+            this.panel29.Location = new System.Drawing.Point(738, 378);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(341, 24);
+            this.panel29.TabIndex = 79;
+            // 
+            // radioButton96
+            // 
+            this.radioButton96.AutoSize = true;
+            this.radioButton96.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton96.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton96.ForeColor = System.Drawing.Color.Black;
+            this.radioButton96.Location = new System.Drawing.Point(271, 1);
+            this.radioButton96.Name = "radioButton96";
+            this.radioButton96.Size = new System.Drawing.Size(58, 19);
+            this.radioButton96.TabIndex = 4;
+            this.radioButton96.TabStop = true;
+            this.radioButton96.Text = "Πόδια";
+            this.radioButton96.UseVisualStyleBackColor = false;
+            // 
+            // radioButton97
+            // 
+            this.radioButton97.AutoSize = true;
+            this.radioButton97.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton97.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton97.ForeColor = System.Drawing.Color.Black;
+            this.radioButton97.Location = new System.Drawing.Point(185, 1);
+            this.radioButton97.Name = "radioButton97";
+            this.radioButton97.Size = new System.Drawing.Size(80, 19);
+            this.radioButton97.TabIndex = 3;
+            this.radioButton97.TabStop = true;
+            this.radioButton97.Text = "Ποδήλατο";
+            this.radioButton97.UseVisualStyleBackColor = false;
+            // 
+            // radioButton98
+            // 
+            this.radioButton98.AutoSize = true;
+            this.radioButton98.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton98.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton98.ForeColor = System.Drawing.Color.Black;
+            this.radioButton98.Location = new System.Drawing.Point(93, 1);
+            this.radioButton98.Name = "radioButton98";
+            this.radioButton98.Size = new System.Drawing.Size(86, 19);
+            this.radioButton98.TabIndex = 2;
+            this.radioButton98.TabStop = true;
+            this.radioButton98.Text = "Λεωφορείο";
+            this.radioButton98.UseVisualStyleBackColor = false;
+            // 
+            // radioButton99
+            // 
+            this.radioButton99.AutoSize = true;
+            this.radioButton99.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton99.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton99.ForeColor = System.Drawing.Color.Black;
+            this.radioButton99.Location = new System.Drawing.Point(3, 1);
+            this.radioButton99.Name = "radioButton99";
+            this.radioButton99.Size = new System.Drawing.Size(84, 19);
+            this.radioButton99.TabIndex = 1;
+            this.radioButton99.TabStop = true;
+            this.radioButton99.Text = "Αυτοκίνητο";
+            this.radioButton99.UseVisualStyleBackColor = false;
+            // 
+            // panel30
+            // 
+            this.panel30.Controls.Add(this.radioButton100);
+            this.panel30.Controls.Add(this.radioButton101);
+            this.panel30.Controls.Add(this.radioButton102);
+            this.panel30.Controls.Add(this.radioButton103);
+            this.panel30.Location = new System.Drawing.Point(738, 405);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(341, 24);
+            this.panel30.TabIndex = 79;
+            // 
+            // radioButton100
+            // 
+            this.radioButton100.AutoSize = true;
+            this.radioButton100.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton100.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton100.ForeColor = System.Drawing.Color.Black;
+            this.radioButton100.Location = new System.Drawing.Point(271, 1);
+            this.radioButton100.Name = "radioButton100";
+            this.radioButton100.Size = new System.Drawing.Size(58, 19);
+            this.radioButton100.TabIndex = 4;
+            this.radioButton100.TabStop = true;
+            this.radioButton100.Text = "Πόδια";
+            this.radioButton100.UseVisualStyleBackColor = false;
+            // 
+            // radioButton101
+            // 
+            this.radioButton101.AutoSize = true;
+            this.radioButton101.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton101.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton101.ForeColor = System.Drawing.Color.Black;
+            this.radioButton101.Location = new System.Drawing.Point(185, 1);
+            this.radioButton101.Name = "radioButton101";
+            this.radioButton101.Size = new System.Drawing.Size(80, 19);
+            this.radioButton101.TabIndex = 3;
+            this.radioButton101.TabStop = true;
+            this.radioButton101.Text = "Ποδήλατο";
+            this.radioButton101.UseVisualStyleBackColor = false;
+            // 
+            // radioButton102
+            // 
+            this.radioButton102.AutoSize = true;
+            this.radioButton102.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton102.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton102.ForeColor = System.Drawing.Color.Black;
+            this.radioButton102.Location = new System.Drawing.Point(93, 1);
+            this.radioButton102.Name = "radioButton102";
+            this.radioButton102.Size = new System.Drawing.Size(86, 19);
+            this.radioButton102.TabIndex = 2;
+            this.radioButton102.TabStop = true;
+            this.radioButton102.Text = "Λεωφορείο";
+            this.radioButton102.UseVisualStyleBackColor = false;
+            // 
+            // radioButton103
+            // 
+            this.radioButton103.AutoSize = true;
+            this.radioButton103.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton103.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton103.ForeColor = System.Drawing.Color.Black;
+            this.radioButton103.Location = new System.Drawing.Point(3, 1);
+            this.radioButton103.Name = "radioButton103";
+            this.radioButton103.Size = new System.Drawing.Size(84, 19);
+            this.radioButton103.TabIndex = 1;
+            this.radioButton103.TabStop = true;
+            this.radioButton103.Text = "Αυτοκίνητο";
+            this.radioButton103.UseVisualStyleBackColor = false;
+            // 
+            // panel31
+            // 
+            this.panel31.Controls.Add(this.radioButton104);
+            this.panel31.Controls.Add(this.radioButton105);
+            this.panel31.Controls.Add(this.radioButton106);
+            this.panel31.Controls.Add(this.radioButton107);
+            this.panel31.Location = new System.Drawing.Point(738, 430);
+            this.panel31.Name = "panel31";
+            this.panel31.Size = new System.Drawing.Size(341, 24);
+            this.panel31.TabIndex = 79;
+            // 
+            // radioButton104
+            // 
+            this.radioButton104.AutoSize = true;
+            this.radioButton104.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton104.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton104.ForeColor = System.Drawing.Color.Black;
+            this.radioButton104.Location = new System.Drawing.Point(271, 1);
+            this.radioButton104.Name = "radioButton104";
+            this.radioButton104.Size = new System.Drawing.Size(58, 19);
+            this.radioButton104.TabIndex = 4;
+            this.radioButton104.TabStop = true;
+            this.radioButton104.Text = "Πόδια";
+            this.radioButton104.UseVisualStyleBackColor = false;
+            // 
+            // radioButton105
+            // 
+            this.radioButton105.AutoSize = true;
+            this.radioButton105.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton105.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton105.ForeColor = System.Drawing.Color.Black;
+            this.radioButton105.Location = new System.Drawing.Point(185, 1);
+            this.radioButton105.Name = "radioButton105";
+            this.radioButton105.Size = new System.Drawing.Size(80, 19);
+            this.radioButton105.TabIndex = 3;
+            this.radioButton105.TabStop = true;
+            this.radioButton105.Text = "Ποδήλατο";
+            this.radioButton105.UseVisualStyleBackColor = false;
+            // 
+            // radioButton106
+            // 
+            this.radioButton106.AutoSize = true;
+            this.radioButton106.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton106.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton106.ForeColor = System.Drawing.Color.Black;
+            this.radioButton106.Location = new System.Drawing.Point(93, 1);
+            this.radioButton106.Name = "radioButton106";
+            this.radioButton106.Size = new System.Drawing.Size(86, 19);
+            this.radioButton106.TabIndex = 2;
+            this.radioButton106.TabStop = true;
+            this.radioButton106.Text = "Λεωφορείο";
+            this.radioButton106.UseVisualStyleBackColor = false;
+            // 
+            // radioButton107
+            // 
+            this.radioButton107.AutoSize = true;
+            this.radioButton107.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton107.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton107.ForeColor = System.Drawing.Color.Black;
+            this.radioButton107.Location = new System.Drawing.Point(3, 1);
+            this.radioButton107.Name = "radioButton107";
+            this.radioButton107.Size = new System.Drawing.Size(84, 19);
+            this.radioButton107.TabIndex = 1;
+            this.radioButton107.TabStop = true;
+            this.radioButton107.Text = "Αυτοκίνητο";
+            this.radioButton107.UseVisualStyleBackColor = false;
+            // 
+            // panel32
+            // 
+            this.panel32.Controls.Add(this.radioButton108);
+            this.panel32.Controls.Add(this.radioButton109);
+            this.panel32.Controls.Add(this.radioButton110);
+            this.panel32.Controls.Add(this.radioButton111);
+            this.panel32.Location = new System.Drawing.Point(738, 457);
+            this.panel32.Name = "panel32";
+            this.panel32.Size = new System.Drawing.Size(341, 24);
+            this.panel32.TabIndex = 79;
+            // 
+            // radioButton108
+            // 
+            this.radioButton108.AutoSize = true;
+            this.radioButton108.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton108.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton108.ForeColor = System.Drawing.Color.Black;
+            this.radioButton108.Location = new System.Drawing.Point(271, 1);
+            this.radioButton108.Name = "radioButton108";
+            this.radioButton108.Size = new System.Drawing.Size(58, 19);
+            this.radioButton108.TabIndex = 4;
+            this.radioButton108.TabStop = true;
+            this.radioButton108.Text = "Πόδια";
+            this.radioButton108.UseVisualStyleBackColor = false;
+            // 
+            // radioButton109
+            // 
+            this.radioButton109.AutoSize = true;
+            this.radioButton109.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton109.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton109.ForeColor = System.Drawing.Color.Black;
+            this.radioButton109.Location = new System.Drawing.Point(185, 1);
+            this.radioButton109.Name = "radioButton109";
+            this.radioButton109.Size = new System.Drawing.Size(80, 19);
+            this.radioButton109.TabIndex = 3;
+            this.radioButton109.TabStop = true;
+            this.radioButton109.Text = "Ποδήλατο";
+            this.radioButton109.UseVisualStyleBackColor = false;
+            // 
+            // radioButton110
+            // 
+            this.radioButton110.AutoSize = true;
+            this.radioButton110.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton110.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton110.ForeColor = System.Drawing.Color.Black;
+            this.radioButton110.Location = new System.Drawing.Point(93, 1);
+            this.radioButton110.Name = "radioButton110";
+            this.radioButton110.Size = new System.Drawing.Size(86, 19);
+            this.radioButton110.TabIndex = 2;
+            this.radioButton110.TabStop = true;
+            this.radioButton110.Text = "Λεωφορείο";
+            this.radioButton110.UseVisualStyleBackColor = false;
+            // 
+            // radioButton111
+            // 
+            this.radioButton111.AutoSize = true;
+            this.radioButton111.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton111.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton111.ForeColor = System.Drawing.Color.Black;
+            this.radioButton111.Location = new System.Drawing.Point(3, 1);
+            this.radioButton111.Name = "radioButton111";
+            this.radioButton111.Size = new System.Drawing.Size(84, 19);
+            this.radioButton111.TabIndex = 1;
+            this.radioButton111.TabStop = true;
+            this.radioButton111.Text = "Αυτοκίνητο";
+            this.radioButton111.UseVisualStyleBackColor = false;
+            // 
+            // panel33
+            // 
+            this.panel33.Controls.Add(this.radioButton112);
+            this.panel33.Controls.Add(this.radioButton113);
+            this.panel33.Controls.Add(this.radioButton114);
+            this.panel33.Controls.Add(this.radioButton115);
+            this.panel33.Location = new System.Drawing.Point(738, 482);
+            this.panel33.Name = "panel33";
+            this.panel33.Size = new System.Drawing.Size(341, 24);
+            this.panel33.TabIndex = 79;
+            // 
+            // radioButton112
+            // 
+            this.radioButton112.AutoSize = true;
+            this.radioButton112.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton112.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton112.ForeColor = System.Drawing.Color.Black;
+            this.radioButton112.Location = new System.Drawing.Point(271, 1);
+            this.radioButton112.Name = "radioButton112";
+            this.radioButton112.Size = new System.Drawing.Size(58, 19);
+            this.radioButton112.TabIndex = 4;
+            this.radioButton112.TabStop = true;
+            this.radioButton112.Text = "Πόδια";
+            this.radioButton112.UseVisualStyleBackColor = false;
+            // 
+            // radioButton113
+            // 
+            this.radioButton113.AutoSize = true;
+            this.radioButton113.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton113.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton113.ForeColor = System.Drawing.Color.Black;
+            this.radioButton113.Location = new System.Drawing.Point(185, 1);
+            this.radioButton113.Name = "radioButton113";
+            this.radioButton113.Size = new System.Drawing.Size(80, 19);
+            this.radioButton113.TabIndex = 3;
+            this.radioButton113.TabStop = true;
+            this.radioButton113.Text = "Ποδήλατο";
+            this.radioButton113.UseVisualStyleBackColor = false;
+            // 
+            // radioButton114
+            // 
+            this.radioButton114.AutoSize = true;
+            this.radioButton114.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton114.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton114.ForeColor = System.Drawing.Color.Black;
+            this.radioButton114.Location = new System.Drawing.Point(93, 1);
+            this.radioButton114.Name = "radioButton114";
+            this.radioButton114.Size = new System.Drawing.Size(86, 19);
+            this.radioButton114.TabIndex = 2;
+            this.radioButton114.TabStop = true;
+            this.radioButton114.Text = "Λεωφορείο";
+            this.radioButton114.UseVisualStyleBackColor = false;
+            // 
+            // radioButton115
+            // 
+            this.radioButton115.AutoSize = true;
+            this.radioButton115.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton115.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton115.ForeColor = System.Drawing.Color.Black;
+            this.radioButton115.Location = new System.Drawing.Point(3, 1);
+            this.radioButton115.Name = "radioButton115";
+            this.radioButton115.Size = new System.Drawing.Size(84, 19);
+            this.radioButton115.TabIndex = 1;
+            this.radioButton115.TabStop = true;
+            this.radioButton115.Text = "Αυτοκίνητο";
+            this.radioButton115.UseVisualStyleBackColor = false;
+            // 
+            // panel34
+            // 
+            this.panel34.Controls.Add(this.radioButton116);
+            this.panel34.Controls.Add(this.radioButton117);
+            this.panel34.Controls.Add(this.radioButton118);
+            this.panel34.Controls.Add(this.radioButton119);
+            this.panel34.Location = new System.Drawing.Point(738, 508);
+            this.panel34.Name = "panel34";
+            this.panel34.Size = new System.Drawing.Size(341, 24);
+            this.panel34.TabIndex = 79;
+            // 
+            // radioButton116
+            // 
+            this.radioButton116.AutoSize = true;
+            this.radioButton116.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton116.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton116.ForeColor = System.Drawing.Color.Black;
+            this.radioButton116.Location = new System.Drawing.Point(271, 1);
+            this.radioButton116.Name = "radioButton116";
+            this.radioButton116.Size = new System.Drawing.Size(58, 19);
+            this.radioButton116.TabIndex = 4;
+            this.radioButton116.TabStop = true;
+            this.radioButton116.Text = "Πόδια";
+            this.radioButton116.UseVisualStyleBackColor = false;
+            // 
+            // radioButton117
+            // 
+            this.radioButton117.AutoSize = true;
+            this.radioButton117.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton117.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton117.ForeColor = System.Drawing.Color.Black;
+            this.radioButton117.Location = new System.Drawing.Point(185, 1);
+            this.radioButton117.Name = "radioButton117";
+            this.radioButton117.Size = new System.Drawing.Size(80, 19);
+            this.radioButton117.TabIndex = 3;
+            this.radioButton117.TabStop = true;
+            this.radioButton117.Text = "Ποδήλατο";
+            this.radioButton117.UseVisualStyleBackColor = false;
+            // 
+            // radioButton118
+            // 
+            this.radioButton118.AutoSize = true;
+            this.radioButton118.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton118.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton118.ForeColor = System.Drawing.Color.Black;
+            this.radioButton118.Location = new System.Drawing.Point(93, 1);
+            this.radioButton118.Name = "radioButton118";
+            this.radioButton118.Size = new System.Drawing.Size(86, 19);
+            this.radioButton118.TabIndex = 2;
+            this.radioButton118.TabStop = true;
+            this.radioButton118.Text = "Λεωφορείο";
+            this.radioButton118.UseVisualStyleBackColor = false;
+            // 
+            // radioButton119
+            // 
+            this.radioButton119.AutoSize = true;
+            this.radioButton119.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton119.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton119.ForeColor = System.Drawing.Color.Black;
+            this.radioButton119.Location = new System.Drawing.Point(3, 1);
+            this.radioButton119.Name = "radioButton119";
+            this.radioButton119.Size = new System.Drawing.Size(84, 19);
+            this.radioButton119.TabIndex = 1;
+            this.radioButton119.TabStop = true;
+            this.radioButton119.Text = "Αυτοκίνητο";
+            this.radioButton119.UseVisualStyleBackColor = false;
+            // 
+            // richTextBox8
+            // 
+            this.richTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.richTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox8.Location = new System.Drawing.Point(63, 408);
+            this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.ReadOnly = true;
+            this.richTextBox8.Size = new System.Drawing.Size(420, 175);
+            this.richTextBox8.TabIndex = 89;
+            this.richTextBox8.Text = resources.GetString("richTextBox8.Text");
+            this.richTextBox8.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Smart_home.Properties.Resources.info;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 582);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(47, 42);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 88;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
+            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox1.Location = new System.Drawing.Point(606, 448);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(322, 126);
+            this.richTextBox1.TabIndex = 90;
+            this.richTextBox1.Text = "Πατώντας το κουμπί \"Υποβολή\", ενημερώνετε τον προσωπικό βοηθό για όλες τις δραστη" +
+    "ριότητες που έχετε για την συγκεκριμένη μέρα";
+            this.richTextBox1.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(66, 38);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(108, 31);
+            this.label3.TabIndex = 91;
+            this.label3.Text = "Ημέρα:";
             // 
             // Nikos_assistant_activities_choosing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1227, 636);
+            this.ClientSize = new System.Drawing.Size(1121, 636);
             this.ControlBox = false;
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.richTextBox8);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel34);
+            this.Controls.Add(this.panel33);
+            this.Controls.Add(this.panel32);
+            this.Controls.Add(this.panel31);
+            this.Controls.Add(this.panel30);
+            this.Controls.Add(this.panel29);
+            this.Controls.Add(this.panel28);
+            this.Controls.Add(this.panel27);
+            this.Controls.Add(this.panel26);
+            this.Controls.Add(this.panel25);
+            this.Controls.Add(this.panel24);
+            this.Controls.Add(this.panel23);
+            this.Controls.Add(this.panel22);
+            this.Controls.Add(this.panel21);
+            this.Controls.Add(this.panel20);
+            this.Controls.Add(this.panel19);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.panel18);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button3);
@@ -1615,6 +2873,39 @@ namespace Smart_home
             this.panel17.PerformLayout();
             this.panel18.ResumeLayout(false);
             this.panel18.PerformLayout();
+            this.panel19.ResumeLayout(false);
+            this.panel19.PerformLayout();
+            this.panel20.ResumeLayout(false);
+            this.panel20.PerformLayout();
+            this.panel21.ResumeLayout(false);
+            this.panel21.PerformLayout();
+            this.panel22.ResumeLayout(false);
+            this.panel22.PerformLayout();
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
+            this.panel24.ResumeLayout(false);
+            this.panel24.PerformLayout();
+            this.panel25.ResumeLayout(false);
+            this.panel25.PerformLayout();
+            this.panel26.ResumeLayout(false);
+            this.panel26.PerformLayout();
+            this.panel27.ResumeLayout(false);
+            this.panel27.PerformLayout();
+            this.panel28.ResumeLayout(false);
+            this.panel28.PerformLayout();
+            this.panel29.ResumeLayout(false);
+            this.panel29.PerformLayout();
+            this.panel30.ResumeLayout(false);
+            this.panel30.PerformLayout();
+            this.panel31.ResumeLayout(false);
+            this.panel31.PerformLayout();
+            this.panel32.ResumeLayout(false);
+            this.panel32.PerformLayout();
+            this.panel33.ResumeLayout(false);
+            this.panel33.PerformLayout();
+            this.panel34.ResumeLayout(false);
+            this.panel34.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1739,5 +3030,90 @@ namespace Smart_home
         private System.Windows.Forms.RadioButton radioButton52;
         private System.Windows.Forms.RadioButton radioButton53;
         private System.Windows.Forms.RadioButton radioButton54;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel panel19;
+        private System.Windows.Forms.RadioButton radioButton56;
+        private System.Windows.Forms.RadioButton radioButton57;
+        private System.Windows.Forms.RadioButton radioButton58;
+        private System.Windows.Forms.RadioButton radioButton59;
+        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.RadioButton radioButton60;
+        private System.Windows.Forms.RadioButton radioButton61;
+        private System.Windows.Forms.RadioButton radioButton62;
+        private System.Windows.Forms.RadioButton radioButton63;
+        private System.Windows.Forms.Panel panel21;
+        private System.Windows.Forms.RadioButton radioButton64;
+        private System.Windows.Forms.RadioButton radioButton65;
+        private System.Windows.Forms.RadioButton radioButton66;
+        private System.Windows.Forms.RadioButton radioButton67;
+        private System.Windows.Forms.Panel panel22;
+        private System.Windows.Forms.RadioButton radioButton68;
+        private System.Windows.Forms.RadioButton radioButton69;
+        private System.Windows.Forms.RadioButton radioButton70;
+        private System.Windows.Forms.RadioButton radioButton71;
+        private System.Windows.Forms.Panel panel23;
+        private System.Windows.Forms.RadioButton radioButton72;
+        private System.Windows.Forms.RadioButton radioButton73;
+        private System.Windows.Forms.RadioButton radioButton74;
+        private System.Windows.Forms.RadioButton radioButton75;
+        private System.Windows.Forms.Panel panel24;
+        private System.Windows.Forms.RadioButton radioButton76;
+        private System.Windows.Forms.RadioButton radioButton77;
+        private System.Windows.Forms.RadioButton radioButton78;
+        private System.Windows.Forms.RadioButton radioButton79;
+        private System.Windows.Forms.Panel panel25;
+        private System.Windows.Forms.RadioButton radioButton80;
+        private System.Windows.Forms.RadioButton radioButton81;
+        private System.Windows.Forms.RadioButton radioButton82;
+        private System.Windows.Forms.RadioButton radioButton83;
+        private System.Windows.Forms.Panel panel26;
+        private System.Windows.Forms.RadioButton radioButton84;
+        private System.Windows.Forms.RadioButton radioButton85;
+        private System.Windows.Forms.RadioButton radioButton86;
+        private System.Windows.Forms.RadioButton radioButton87;
+        private System.Windows.Forms.Panel panel27;
+        private System.Windows.Forms.RadioButton radioButton88;
+        private System.Windows.Forms.RadioButton radioButton89;
+        private System.Windows.Forms.RadioButton radioButton90;
+        private System.Windows.Forms.RadioButton radioButton91;
+        private System.Windows.Forms.Panel panel28;
+        private System.Windows.Forms.RadioButton radioButton92;
+        private System.Windows.Forms.RadioButton radioButton93;
+        private System.Windows.Forms.RadioButton radioButton94;
+        private System.Windows.Forms.RadioButton radioButton95;
+        private System.Windows.Forms.Panel panel29;
+        private System.Windows.Forms.RadioButton radioButton96;
+        private System.Windows.Forms.RadioButton radioButton97;
+        private System.Windows.Forms.RadioButton radioButton98;
+        private System.Windows.Forms.RadioButton radioButton99;
+        private System.Windows.Forms.Panel panel30;
+        private System.Windows.Forms.RadioButton radioButton100;
+        private System.Windows.Forms.RadioButton radioButton101;
+        private System.Windows.Forms.RadioButton radioButton102;
+        private System.Windows.Forms.RadioButton radioButton103;
+        private System.Windows.Forms.Panel panel31;
+        private System.Windows.Forms.RadioButton radioButton104;
+        private System.Windows.Forms.RadioButton radioButton105;
+        private System.Windows.Forms.RadioButton radioButton106;
+        private System.Windows.Forms.RadioButton radioButton107;
+        private System.Windows.Forms.Panel panel32;
+        private System.Windows.Forms.RadioButton radioButton108;
+        private System.Windows.Forms.RadioButton radioButton109;
+        private System.Windows.Forms.RadioButton radioButton110;
+        private System.Windows.Forms.RadioButton radioButton111;
+        private System.Windows.Forms.Panel panel33;
+        private System.Windows.Forms.RadioButton radioButton112;
+        private System.Windows.Forms.RadioButton radioButton113;
+        private System.Windows.Forms.RadioButton radioButton114;
+        private System.Windows.Forms.RadioButton radioButton115;
+        private System.Windows.Forms.Panel panel34;
+        private System.Windows.Forms.RadioButton radioButton116;
+        private System.Windows.Forms.RadioButton radioButton117;
+        private System.Windows.Forms.RadioButton radioButton118;
+        private System.Windows.Forms.RadioButton radioButton119;
+        private System.Windows.Forms.RichTextBox richTextBox8;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -33,6 +33,46 @@ namespace Smart_home
         public static string monday21;
         public static string monday22;
 
+        // Monday activity types
+
+        public static string monday_activity_type6;
+        public static string monday_activity_type7;
+        public static string monday_activity_type8;
+        public static string monday_activity_type9;
+        public static string monday_activity_type10;
+        public static string monday_activity_type11;
+        public static string monday_activity_type12;
+        public static string monday_activity_type13;
+        public static string monday_activity_type14;
+        public static string monday_activity_type15;
+        public static string monday_activity_type16;
+        public static string monday_activity_type17;
+        public static string monday_activity_type18;
+        public static string monday_activity_type19;
+        public static string monday_activity_type20;
+        public static string monday_activity_type21;
+        public static string monday_activity_type22;
+
+        // Monday way of transportation
+
+        public static string monday_transport6;
+        public static string monday_transport7;
+        public static string monday_transport8;
+        public static string monday_transport9;
+        public static string monday_transport10;
+        public static string monday_transport11;
+        public static string monday_transport12;
+        public static string monday_transport13;
+        public static string monday_transport14;
+        public static string monday_transport15;
+        public static string monday_transport16;
+        public static string monday_transport17;
+        public static string monday_transport18;
+        public static string monday_transport19;
+        public static string monday_transport20;
+        public static string monday_transport21;
+        public static string monday_transport22;
+
 
         //-------------------------------------------------
         // tuesday activities
@@ -55,6 +95,45 @@ namespace Smart_home
         public static string tuesday21;
         public static string tuesday22;
 
+        // Tuesday activity types
+
+        public static string tuesday_activity_type6;
+        public static string tuesday_activity_type7;
+        public static string tuesday_activity_type8;
+        public static string tuesday_activity_type9;
+        public static string tuesday_activity_type10;
+        public static string tuesday_activity_type11;
+        public static string tuesday_activity_type12;
+        public static string tuesday_activity_type13;
+        public static string tuesday_activity_type14;
+        public static string tuesday_activity_type15;
+        public static string tuesday_activity_type16;
+        public static string tuesday_activity_type17;
+        public static string tuesday_activity_type18;
+        public static string tuesday_activity_type19;
+        public static string tuesday_activity_type20;
+        public static string tuesday_activity_type21;
+        public static string tuesday_activity_type22;
+
+        // tuesday way of transportation
+
+        public static string tuesday_transport6;
+        public static string tuesday_transport7;
+        public static string tuesday_transport8;
+        public static string tuesday_transport9;
+        public static string tuesday_transport10;
+        public static string tuesday_transport11;
+        public static string tuesday_transport12;
+        public static string tuesday_transport13;
+        public static string tuesday_transport14;
+        public static string tuesday_transport15;
+        public static string tuesday_transport16;
+        public static string tuesday_transport17;
+        public static string tuesday_transport18;
+        public static string tuesday_transport19;
+        public static string tuesday_transport20;
+        public static string tuesday_transport21;
+        public static string tuesday_transport22;
 
         //-------------------------------------------------
         // wednesday activities
@@ -77,6 +156,45 @@ namespace Smart_home
         public static string wednesday21;
         public static string wednesday22;
 
+        // wednesday activity types
+
+        public static string wednesday_activity_type6;
+        public static string wednesday_activity_type7;
+        public static string wednesday_activity_type8;
+        public static string wednesday_activity_type9;
+        public static string wednesday_activity_type10;
+        public static string wednesday_activity_type11;
+        public static string wednesday_activity_type12;
+        public static string wednesday_activity_type13;
+        public static string wednesday_activity_type14;
+        public static string wednesday_activity_type15;
+        public static string wednesday_activity_type16;
+        public static string wednesday_activity_type17;
+        public static string wednesday_activity_type18;
+        public static string wednesday_activity_type19;
+        public static string wednesday_activity_type20;
+        public static string wednesday_activity_type21;
+        public static string wednesday_activity_type22;
+
+        // wednesday way of transportation
+
+        public static string wednesday_transport6;
+        public static string wednesday_transport7;
+        public static string wednesday_transport8;
+        public static string wednesday_transport9;
+        public static string wednesday_transport10;
+        public static string wednesday_transport11;
+        public static string wednesday_transport12;
+        public static string wednesday_transport13;
+        public static string wednesday_transport14;
+        public static string wednesday_transport15;
+        public static string wednesday_transport16;
+        public static string wednesday_transport17;
+        public static string wednesday_transport18;
+        public static string wednesday_transport19;
+        public static string wednesday_transport20;
+        public static string wednesday_transport21;
+        public static string wednesday_transport22;
 
         //-------------------------------------------------
         // thursday activities
@@ -99,6 +217,45 @@ namespace Smart_home
         public static string thursday21;
         public static string thursday22;
 
+        // thursday activity types
+
+        public static string thursday_activity_type6;
+        public static string thursday_activity_type7;
+        public static string thursday_activity_type8;
+        public static string thursday_activity_type9;
+        public static string thursday_activity_type10;
+        public static string thursday_activity_type11;
+        public static string thursday_activity_type12;
+        public static string thursday_activity_type13;
+        public static string thursday_activity_type14;
+        public static string thursday_activity_type15;
+        public static string thursday_activity_type16;
+        public static string thursday_activity_type17;
+        public static string thursday_activity_type18;
+        public static string thursday_activity_type19;
+        public static string thursday_activity_type20;
+        public static string thursday_activity_type21;
+        public static string thursday_activity_type22;
+
+        // thursday way of transportation
+
+        public static string thursday_transport6;
+        public static string thursday_transport7;
+        public static string thursday_transport8;
+        public static string thursday_transport9;
+        public static string thursday_transport10;
+        public static string thursday_transport11;
+        public static string thursday_transport12;
+        public static string thursday_transport13;
+        public static string thursday_transport14;
+        public static string thursday_transport15;
+        public static string thursday_transport16;
+        public static string thursday_transport17;
+        public static string thursday_transport18;
+        public static string thursday_transport19;
+        public static string thursday_transport20;
+        public static string thursday_transport21;
+        public static string thursday_transport22;
 
         //-------------------------------------------------
         // friday activities
@@ -121,6 +278,44 @@ namespace Smart_home
         public static string friday21;
         public static string friday22;
 
+        // friday activity types
+
+        public static string friday_activity_type6;
+        public static string friday_activity_type7;
+        public static string friday_activity_type8;
+        public static string friday_activity_type9;
+        public static string friday_activity_type10;
+        public static string friday_activity_type11;
+        public static string friday_activity_type12;
+        public static string friday_activity_type13;
+        public static string friday_activity_type14;
+        public static string friday_activity_type15;
+        public static string friday_activity_type16;
+        public static string friday_activity_type17;
+        public static string friday_activity_type18;
+        public static string friday_activity_type19;
+        public static string friday_activity_type20;
+        public static string friday_activity_type21;
+        public static string friday_activity_type22;
+
+        // friday way of transportation
+
+        public static string friday_transport6;
+        public static string friday_transport7;
+        public static string friday_transport9;
+        public static string friday_transport10;
+        public static string friday_transport11;
+        public static string friday_transport12;
+        public static string friday_transport13;
+        public static string friday_transport14;
+        public static string friday_transport15;
+        public static string friday_transport16;
+        public static string friday_transport17;
+        public static string friday_transport18;
+        public static string friday_transport19;
+        public static string friday_transport20;
+        public static string friday_transport21;
+        public static string friday_transport22;
 
         //-------------------------------------------------
         // saturday activities
@@ -143,6 +338,44 @@ namespace Smart_home
         public static string saturday21;
         public static string saturday22;
 
+        // saturday activity types
+
+        public static string saturday_activity_type6;
+        public static string saturday_activity_type7;
+        public static string saturday_activity_type8;
+        public static string saturday_activity_type9;
+        public static string saturday_activity_type10;
+        public static string saturday_activity_type11;
+        public static string saturday_activity_type12;
+        public static string saturday_activity_type13;
+        public static string saturday_activity_type14;
+        public static string saturday_activity_type15;
+        public static string saturday_activity_type16;
+        public static string saturday_activity_type17;
+        public static string saturday_activity_type18;
+        public static string saturday_activity_type19;
+        public static string saturday_activity_type20;
+        public static string saturday_activity_type21;
+        public static string saturday_activity_type22;
+
+        // saturday way of transportation
+
+        public static string saturday_transport6;
+        public static string saturday_transport7;
+        public static string saturday_transport9;
+        public static string saturday_transport10;
+        public static string saturday_transport11;
+        public static string saturday_transport12;
+        public static string saturday_transport13;
+        public static string saturday_transport14;
+        public static string saturday_transport15;
+        public static string saturday_transport16;
+        public static string saturday_transport17;
+        public static string saturday_transport18;
+        public static string saturday_transport19;
+        public static string saturday_transport20;
+        public static string saturday_transport21;
+        public static string saturday_transport22;
 
         //-------------------------------------------------
         // sunday activities
@@ -165,6 +398,44 @@ namespace Smart_home
         public static string sunday21;
         public static string sunday22;
 
+        // sunday activity types
+
+        public static string sunday_activity_type6;
+        public static string sunday_activity_type7;
+        public static string sunday_activity_type8;
+        public static string sunday_activity_type9;
+        public static string sunday_activity_type10;
+        public static string sunday_activity_type11;
+        public static string sunday_activity_type12;
+        public static string sunday_activity_type13;
+        public static string sunday_activity_type14;
+        public static string sunday_activity_type15;
+        public static string sunday_activity_type16;
+        public static string sunday_activity_type17;
+        public static string sunday_activity_type18;
+        public static string sunday_activity_type19;
+        public static string sunday_activity_type20;
+        public static string sunday_activity_type21;
+        public static string sunday_activity_type22;
+
+        // sunday way of transportation
+
+        public static string sunday_transport6;
+        public static string sunday_transport7;
+        public static string sunday_transport9;
+        public static string sunday_transport10;
+        public static string sunday_transport11;
+        public static string sunday_transport12;
+        public static string sunday_transport13;
+        public static string sunday_transport14;
+        public static string sunday_transport15;
+        public static string sunday_transport16;
+        public static string sunday_transport17;
+        public static string sunday_transport18;
+        public static string sunday_transport19;
+        public static string sunday_transport20;
+        public static string sunday_transport21;
+        public static string sunday_transport22;
 
         //-------------------------------------------------
 
@@ -199,6 +470,42 @@ namespace Smart_home
             label25.Text = day;
         }
 
+        public string activity_type(RadioButton r1, RadioButton r2, RadioButton r3)
+        {
+            if (r1.Checked == true)
+            {
+                return r1.Text;
+            }
+            else if (r2.Checked == true)
+            {
+                return r2.Text;
+            }
+            else
+            {
+                return r3.Text;
+            }
+        }
+
+        public string transport_way(RadioButton r1, RadioButton r2, RadioButton r3, RadioButton r4)
+        {
+            if (r1.Checked == true)
+            {
+                return r1.Text;
+            }
+            else if (r2.Checked == true)
+            {
+                return r2.Text;
+            }
+            else if (r3.Checked == true)
+            {
+                return r3.Text;
+            }
+            else
+            {
+                return r4.Text;
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Το πρόγραμμα της ημέρας υποβλήθηκε με επιτυχία");
@@ -221,6 +528,27 @@ namespace Smart_home
                 monday20 = textBox20.Text;
                 monday21 = textBox21.Text;
                 monday22 = textBox22.Text;
+                if(monday6 != "")
+                {
+                    /*if (radioButton1.Checked == true)
+                    {
+                        monday_activity_type6 = radioButton1.Text;
+                    }
+                    else if(radioButton2.Checked == true)
+                    {
+                        monday_activity_type6 = radioButton2.Text;
+                    }
+                    else
+                    {
+                        monday_activity_type6 = radioButton3.Text;
+                    }*/
+
+                    // Writing the type of the activity in a variable
+                    monday_activity_type6 = activity_type(radioButton1,radioButton2,radioButton3);
+
+                    // Writing the way of transport in a variable
+                    monday_transport6 = transport_way(radioButton52, radioButton53, radioButton54, radioButton55);
+                }
             }
             if (day_code == 2)
             {
@@ -343,6 +671,10 @@ namespace Smart_home
                 sunday22 = textBox22.Text;
             }
 
+            MessageBox.Show(monday6);
+            MessageBox.Show(monday_activity_type6);
+            MessageBox.Show(monday_transport6);
+
             this.Close();
             Nikos_personal_assistant assist = new Nikos_personal_assistant();
             assist.Show();
@@ -351,6 +683,26 @@ namespace Smart_home
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox8.Visible = true;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox8.Visible = false;
+        }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = true;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = false;
         }
     }
 }
