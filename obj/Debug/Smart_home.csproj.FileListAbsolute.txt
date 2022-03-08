@@ -92,4 +92,23 @@ C:\Users\nikos\OneDrive\Υπολογιστής\smart_home\smart_home\obj\Debug\S
 C:\Users\nikos\OneDrive\Υπολογιστής\smart_home\smart_home\obj\Debug\Smart_home.Nikos_assistant_day_choosing.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_assistant_activities_choosing.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_assistant_day_choosing.resources
+<<<<<<< HEAD
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_shoe_rack_ShoeChoose.resources
+=======
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Form3.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.manakos_pet_activity.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.manakos_smart_feeder.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.manakos_tv_activity.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_assistant_activities_choosing.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_assistant_day_choosing.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_heat.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_heat_control.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_lights.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_lights_bathroom.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_lights_bedroom1.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_lights_bedroom2.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_lights_kitchen.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_lights_living_room.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_lights_toilet.resources
+C:\Users\Νικολέτα\source\repos\smart_home\obj\Debug\Smart_home.Nikos_personal_assistant.resources
+>>>>>>> fc3e844dc7fb4f33101374b49b8562414fc0e09c
