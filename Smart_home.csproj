@@ -369,6 +369,16 @@
     <None Include="Resources\akiba.png" />
     <None Include="Resources\lightbulb_closed.png" />
     <None Include="Resources\lightbulb_open.png" />
+    <None Include="Resources\kitchen_lights_on_0.jpg" />
+    <None Include="Resources\kitchen_lights_on_1.jpg" />
+    <None Include="Resources\kitchen_lights_on_2.jpg" />
+    <None Include="Resources\kitchen_lights_on_3.jpg" />
+    <None Include="Resources\kitchen_lights_on_4.jpg" />
+    <None Include="Resources\kitchen_lights_on_5.jpg" />
+    <None Include="Resources\kitchen_lights_on_6.jpg" />
+    <None Include="Resources\kitchen_lights_on_7.jpg" />
+    <None Include="Resources\kitchen_lights_on_8.jpg" />
+    <None Include="Resources\kitchen_lights_on_9.jpg" />
     <Content Include="Resources\living_room_lights_off.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
