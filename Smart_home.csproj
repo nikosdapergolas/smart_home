@@ -303,6 +303,7 @@
     <None Include="Resources\living_room_lights_on.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\ShoeStack.jpg" />
     <None Include="Resources\TVOFF.jpg" />
     <None Include="Resources\TVON.jpg" />
     <None Include="Resources\power.jpg" />

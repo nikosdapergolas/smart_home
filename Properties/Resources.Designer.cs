@@ -553,6 +553,16 @@ namespace Smart_home.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ShoeStack {
+            get {
+                object obj = ResourceManager.GetObject("ShoeStack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap smort {
             get {
                 object obj = ResourceManager.GetObject("smort", resourceCulture);

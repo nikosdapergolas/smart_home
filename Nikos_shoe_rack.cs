@@ -12,6 +12,7 @@ namespace Smart_home
 {
     public partial class Nikos_shoe_rack : Form
     {
+        public static int Ads;
         public Nikos_shoe_rack()
         {
             InitializeComponent();
