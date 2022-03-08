@@ -116,6 +116,7 @@ namespace Smart_home
             this.textBox1.Size = new System.Drawing.Size(157, 20);
             this.textBox1.TabIndex = 7;
             this.textBox1.Text = "Στάθμη Τροφής ";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -135,6 +136,7 @@ namespace Smart_home
             this.richTextBox1.Size = new System.Drawing.Size(262, 234);
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // pictureBox5
             // 
@@ -245,6 +247,7 @@ namespace Smart_home
             this.textBox2.TabIndex = 16;
             this.textBox2.Text = "Ξηρή ";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // menuStrip1
             // 
@@ -295,6 +298,7 @@ namespace Smart_home
             this.button9.Size = new System.Drawing.Size(75, 23);
             this.button9.TabIndex = 24;
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // manakos_smart_feeder
             // 

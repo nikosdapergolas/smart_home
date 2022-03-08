@@ -178,7 +178,9 @@ namespace Smart_home
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            manakos_tv_activity personal_assistant = new manakos_tv_activity();
+            personal_assistant.Show();
         }
     }
      
