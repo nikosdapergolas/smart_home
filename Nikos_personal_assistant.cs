@@ -35,5 +35,12 @@ namespace Smart_home
         {
             Application.Exit();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_assistant_activities_showing activities = new Nikos_assistant_activities_showing();
+            activities.Show();
+        }
     }
 }

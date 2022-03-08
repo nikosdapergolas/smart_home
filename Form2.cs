@@ -182,6 +182,11 @@ namespace Smart_home
             manakos_tv_activity personal_assistant = new manakos_tv_activity();
             personal_assistant.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
      
 }

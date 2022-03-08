@@ -54,6 +54,7 @@ namespace Smart_home
             button21.Text = "" + channel;
             
             pictureBox1.Visible = true;
+            pictureBox2.Visible = true;
             button4.Visible = true;
             button5.Visible = true;
             button6.Visible = true;
@@ -91,6 +92,7 @@ namespace Smart_home
             button21.Text = "" + channel;
             
             pictureBox1.Visible = true;
+            pictureBox2.Visible = true;
             button4.Visible = true;
             button5.Visible = true;
             button6.Visible = true;
@@ -131,6 +133,7 @@ namespace Smart_home
             
 
             pictureBox1.Visible = true;
+            pictureBox2.Visible = true;
             button4.Visible = true;
             button5.Visible = true;
             button6.Visible = true;
@@ -165,6 +168,7 @@ namespace Smart_home
         private void button19_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = false;
+            pictureBox2.Visible = false; ;
             button4.Visible = false;
             button5.Visible = false;
             button6.Visible = false;
@@ -202,8 +206,8 @@ namespace Smart_home
         {
 
             
-            button25.BackColor=Color.Green;                   
-           
+            button25.BackColor=Color.Green;
+            pictureBox2.BackgroundImage = Properties.Resources.TVON;
             
             
         }
@@ -310,6 +314,125 @@ namespace Smart_home
         private void button26_Click(object sender, EventArgs e)
         {
             button25.BackColor = Color.Red;
+            pictureBox2.BackgroundImage = Properties.Resources.TVOFF;
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox8.Visible = true;
+        }
+
+        private void pictureBox3_MouseLeave(object sender, EventArgs e)
+        {
+            
+            richTextBox8.Visible = false ;
+
+        }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = true;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = false;
+        }
+
+        private void button2_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = true;
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = false;
+        }
+
+        private void button19_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox2.Visible = true;
+        }
+
+        private void button19_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox2.Visible = false;
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox3.Visible = true;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox3.Visible = false;
+        }
+
+        private void button23_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox4.Visible = true;
+        }
+
+        private void button23_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox4.Visible = false;
+        }
+
+        private void button24_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox4.Visible = true;
+        }
+
+        private void button24_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox4.Visible = false;
+        }
+
+        private void button5_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox5.Visible = true;
+
+        }
+
+        private void button5_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox5.Visible = false;
+        }
+
+        private void button6_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox5.Visible = true;
+        }
+
+        private void button6_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox5.Visible = false;
+        }
+
+        private void button4_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox6.Visible = true;
+        }
+
+        private void button4_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox6.Visible = false;
+        }
+
+        private void button26_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox7.Visible = true;
+        }
+
+        private void button26_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox7.Visible = false;
         }
     }
 }

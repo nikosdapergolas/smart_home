@@ -211,5 +211,71 @@ namespace Smart_home
         {
 
         }
+
+        private void pictureBox6_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox8.Visible = true;
+        }
+
+        private void pictureBox6_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox8.Visible = false;
+        }
+
+        private void richTextBox1_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox2.Visible = true;
+        }
+
+        private void richTextBox1_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox2.Visible = false;
+        }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox3.Visible = true;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox3.Visible = false;
+        }
+
+        private void button2_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox4.Visible = true;
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox4.Visible = false;
+        }
+
+        private void button3_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox5.Visible = true;
+        }
+
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox5.Visible = false;
+        }
+
+        private void button5_MouseEnter(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button5_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox6.Visible = true;
+        }
+
+        private void button5_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox6.Visible = false;
+
+        }
     }
 }

@@ -176,7 +176,7 @@ namespace Smart_home
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(91, 255);
+            this.textBox4.Location = new System.Drawing.Point(91, 203);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(294, 20);
             this.textBox4.TabIndex = 35;
@@ -210,7 +210,7 @@ namespace Smart_home
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(91, 203);
+            this.textBox6.Location = new System.Drawing.Point(91, 255);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(294, 20);
             this.textBox6.TabIndex = 31;
@@ -227,7 +227,7 @@ namespace Smart_home
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(91, 411);
+            this.textBox7.Location = new System.Drawing.Point(91, 281);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(294, 20);
             this.textBox7.TabIndex = 47;
@@ -244,7 +244,7 @@ namespace Smart_home
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(91, 385);
+            this.textBox8.Location = new System.Drawing.Point(91, 307);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(294, 20);
             this.textBox8.TabIndex = 45;
@@ -261,7 +261,7 @@ namespace Smart_home
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(91, 359);
+            this.textBox9.Location = new System.Drawing.Point(91, 333);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(294, 20);
             this.textBox9.TabIndex = 43;
@@ -278,7 +278,7 @@ namespace Smart_home
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(91, 333);
+            this.textBox10.Location = new System.Drawing.Point(91, 359);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(294, 20);
             this.textBox10.TabIndex = 41;
@@ -295,7 +295,7 @@ namespace Smart_home
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(91, 307);
+            this.textBox11.Location = new System.Drawing.Point(91, 385);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(294, 20);
             this.textBox11.TabIndex = 39;
@@ -312,7 +312,7 @@ namespace Smart_home
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(91, 281);
+            this.textBox12.Location = new System.Drawing.Point(91, 411);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(294, 20);
             this.textBox12.TabIndex = 37;
@@ -329,7 +329,7 @@ namespace Smart_home
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(467, 255);
+            this.textBox13.Location = new System.Drawing.Point(467, 125);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(294, 20);
             this.textBox13.TabIndex = 59;
@@ -346,7 +346,7 @@ namespace Smart_home
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(467, 229);
+            this.textBox14.Location = new System.Drawing.Point(467, 151);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(294, 20);
             this.textBox14.TabIndex = 57;
@@ -363,7 +363,7 @@ namespace Smart_home
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(467, 203);
+            this.textBox15.Location = new System.Drawing.Point(467, 177);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(294, 20);
             this.textBox15.TabIndex = 55;
@@ -380,7 +380,7 @@ namespace Smart_home
             // 
             // textBox16
             // 
-            this.textBox16.Location = new System.Drawing.Point(467, 177);
+            this.textBox16.Location = new System.Drawing.Point(467, 203);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(294, 20);
             this.textBox16.TabIndex = 53;
@@ -397,7 +397,7 @@ namespace Smart_home
             // 
             // textBox17
             // 
-            this.textBox17.Location = new System.Drawing.Point(467, 151);
+            this.textBox17.Location = new System.Drawing.Point(467, 229);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(294, 20);
             this.textBox17.TabIndex = 51;
@@ -414,7 +414,7 @@ namespace Smart_home
             // 
             // textBox18
             // 
-            this.textBox18.Location = new System.Drawing.Point(467, 125);
+            this.textBox18.Location = new System.Drawing.Point(467, 255);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(294, 20);
             this.textBox18.TabIndex = 49;
@@ -431,7 +431,7 @@ namespace Smart_home
             // 
             // textBox19
             // 
-            this.textBox19.Location = new System.Drawing.Point(467, 412);
+            this.textBox19.Location = new System.Drawing.Point(467, 281);
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(294, 20);
             this.textBox19.TabIndex = 71;
@@ -448,7 +448,7 @@ namespace Smart_home
             // 
             // textBox20
             // 
-            this.textBox20.Location = new System.Drawing.Point(467, 386);
+            this.textBox20.Location = new System.Drawing.Point(467, 307);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(294, 20);
             this.textBox20.TabIndex = 69;
@@ -465,7 +465,7 @@ namespace Smart_home
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(467, 360);
+            this.textBox21.Location = new System.Drawing.Point(467, 333);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(294, 20);
             this.textBox21.TabIndex = 67;
@@ -482,7 +482,7 @@ namespace Smart_home
             // 
             // textBox22
             // 
-            this.textBox22.Location = new System.Drawing.Point(467, 334);
+            this.textBox22.Location = new System.Drawing.Point(467, 359);
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(294, 20);
             this.textBox22.TabIndex = 65;
@@ -499,7 +499,7 @@ namespace Smart_home
             // 
             // textBox23
             // 
-            this.textBox23.Location = new System.Drawing.Point(467, 308);
+            this.textBox23.Location = new System.Drawing.Point(467, 386);
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(294, 20);
             this.textBox23.TabIndex = 63;
@@ -516,7 +516,7 @@ namespace Smart_home
             // 
             // textBox24
             // 
-            this.textBox24.Location = new System.Drawing.Point(467, 282);
+            this.textBox24.Location = new System.Drawing.Point(467, 412);
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(294, 20);
             this.textBox24.TabIndex = 61;
@@ -540,6 +540,7 @@ namespace Smart_home
             this.button1.TabIndex = 72;
             this.button1.Text = "Ypovolh";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label25
             // 
