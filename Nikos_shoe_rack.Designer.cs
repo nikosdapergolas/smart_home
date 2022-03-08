@@ -99,6 +99,7 @@ namespace Smart_home
             this.button3.TabIndex = 4;
             this.button3.Text = "Add new shoe to the shoe rack";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             this.button3.MouseLeave += new System.EventHandler(this.button3_MouseLeave);
             this.button3.MouseHover += new System.EventHandler(this.button3_MouseHover);
             // 
