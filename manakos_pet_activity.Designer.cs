@@ -80,6 +80,7 @@ namespace Smart_home
             this.onlineHelpToolStripMenuItem.Name = "onlineHelpToolStripMenuItem";
             this.onlineHelpToolStripMenuItem.Size = new System.Drawing.Size(99, 25);
             this.onlineHelpToolStripMenuItem.Text = "online help";
+            this.onlineHelpToolStripMenuItem.Click += new System.EventHandler(this.onlineHelpToolStripMenuItem_Click);
             // 
             // button1
             // 

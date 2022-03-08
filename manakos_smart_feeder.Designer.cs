@@ -322,6 +322,7 @@ namespace Smart_home
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "manakos_smart_feeder";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "manakos_smart_feeder";
             this.Load += new System.EventHandler(this.manakos_smart_feeder_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

@@ -60,3 +60,4 @@ C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.pdb
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.manakos_smart_feeder.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Form3.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.manakos_pet_activity.resources
+C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.manakos_tv_activity.resources

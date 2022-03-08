@@ -82,6 +82,12 @@
     <Compile Include="manakos_smart_feeder.Designer.cs">
       <DependentUpon>manakos_smart_feeder.cs</DependentUpon>
     </Compile>
+    <Compile Include="manakos_tv_activity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manakos_tv_activity.Designer.cs">
+      <DependentUpon>manakos_tv_activity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nikos_heat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="manakos_smart_feeder.resx">
       <DependentUpon>manakos_smart_feeder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manakos_tv_activity.resx">
+      <DependentUpon>manakos_tv_activity.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_heat.resx">
       <DependentUpon>Nikos_heat.cs</DependentUpon>
@@ -267,6 +276,10 @@
     <None Include="Resources\living_room_lights_on.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\power.jpg" />
+    <None Include="Resources\Pow.jpg" />
+    <None Include="Resources\powBut.png" />
+    <None Include="Resources\tv.png" />
     <None Include="Resources\white.jpg" />
     <None Include="Resources\smort.jpg" />
     <None Include="Resources\newzzzagams.png" />

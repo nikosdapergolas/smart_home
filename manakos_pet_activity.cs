@@ -97,5 +97,10 @@ namespace Smart_home
             manakos_smart_feeder form2 = new manakos_smart_feeder();
             form2.Show();
         }
+
+        private void onlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
