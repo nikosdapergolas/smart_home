@@ -88,6 +88,18 @@
     <Compile Include="manakos_tv_activity.Designer.cs">
       <DependentUpon>manakos_tv_activity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nikos_assistant_activities_choosing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_assistant_activities_choosing.Designer.cs">
+      <DependentUpon>Nikos_assistant_activities_choosing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nikos_assistant_day_choosing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_assistant_day_choosing.Designer.cs">
+      <DependentUpon>Nikos_assistant_day_choosing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nikos_heat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,6 +188,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="manakos_tv_activity.resx">
       <DependentUpon>manakos_tv_activity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_assistant_activities_choosing.resx">
+      <DependentUpon>Nikos_assistant_activities_choosing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_assistant_day_choosing.resx">
+      <DependentUpon>Nikos_assistant_day_choosing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_heat.resx">
       <DependentUpon>Nikos_heat.cs</DependentUpon>
