@@ -102,5 +102,20 @@ namespace Smart_home
         {
 
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox8.Visible = true;
+        }
+
+        private void pictureBox3_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox8.Visible = false;
+        }
     }
 }

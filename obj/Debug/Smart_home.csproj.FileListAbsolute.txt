@@ -92,3 +92,4 @@ C:\Users\nikos\OneDrive\Υπολογιστής\smart_home\smart_home\obj\Debug\S
 C:\Users\nikos\OneDrive\Υπολογιστής\smart_home\smart_home\obj\Debug\Smart_home.Nikos_assistant_day_choosing.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_assistant_activities_choosing.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_assistant_day_choosing.resources
+C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_shoe_rack_ShoeChoose.resources

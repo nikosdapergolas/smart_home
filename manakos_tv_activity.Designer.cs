@@ -60,8 +60,20 @@ namespace Smart_home
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -111,6 +123,8 @@ namespace Smart_home
             this.button1.TabIndex = 23;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
+            this.button1.MouseHover += new System.EventHandler(this.button1_MouseHover);
             // 
             // button2
             // 
@@ -122,6 +136,8 @@ namespace Smart_home
             this.button2.TabIndex = 24;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
+            this.button2.MouseHover += new System.EventHandler(this.button2_MouseHover);
             // 
             // button3
             // 
@@ -143,6 +159,8 @@ namespace Smart_home
             this.pictureBox1.TabIndex = 26;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Visible = false;
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
+            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
             // 
             // button4
             // 
@@ -156,6 +174,8 @@ namespace Smart_home
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.MouseLeave += new System.EventHandler(this.button4_MouseLeave);
+            this.button4.MouseHover += new System.EventHandler(this.button4_MouseHover);
             // 
             // button5
             // 
@@ -169,6 +189,8 @@ namespace Smart_home
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Visible = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.MouseLeave += new System.EventHandler(this.button5_MouseLeave);
+            this.button5.MouseHover += new System.EventHandler(this.button5_MouseHover);
             // 
             // button6
             // 
@@ -182,6 +204,8 @@ namespace Smart_home
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Visible = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.MouseLeave += new System.EventHandler(this.button6_MouseLeave);
+            this.button6.MouseHover += new System.EventHandler(this.button6_MouseHover);
             // 
             // button8
             // 
@@ -350,6 +374,8 @@ namespace Smart_home
             this.button19.UseVisualStyleBackColor = false;
             this.button19.Visible = false;
             this.button19.Click += new System.EventHandler(this.button19_Click);
+            this.button19.MouseLeave += new System.EventHandler(this.button19_MouseLeave);
+            this.button19.MouseHover += new System.EventHandler(this.button19_MouseHover);
             // 
             // button20
             // 
@@ -397,6 +423,8 @@ namespace Smart_home
             this.button23.UseVisualStyleBackColor = false;
             this.button23.Visible = false;
             this.button23.Click += new System.EventHandler(this.button23_Click);
+            this.button23.MouseLeave += new System.EventHandler(this.button23_MouseLeave);
+            this.button23.MouseHover += new System.EventHandler(this.button23_MouseHover);
             // 
             // button24
             // 
@@ -410,6 +438,8 @@ namespace Smart_home
             this.button24.UseVisualStyleBackColor = false;
             this.button24.Visible = false;
             this.button24.Click += new System.EventHandler(this.button24_Click);
+            this.button24.MouseLeave += new System.EventHandler(this.button24_MouseLeave);
+            this.button24.MouseHover += new System.EventHandler(this.button24_MouseHover);
             // 
             // button25
             // 
@@ -436,6 +466,131 @@ namespace Smart_home
             this.button26.UseVisualStyleBackColor = false;
             this.button26.Visible = false;
             this.button26.Click += new System.EventHandler(this.button26_Click);
+            this.button26.MouseLeave += new System.EventHandler(this.button26_MouseLeave);
+            this.button26.MouseHover += new System.EventHandler(this.button26_MouseHover);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(263, 42);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(325, 98);
+            this.pictureBox2.TabIndex = 50;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::Smart_home.Properties.Resources.info;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 42);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(47, 42);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 51;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
+            this.pictureBox3.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
+            // 
+            // richTextBox8
+            // 
+            this.richTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.richTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox8.Location = new System.Drawing.Point(12, 90);
+            this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.ReadOnly = true;
+            this.richTextBox8.Size = new System.Drawing.Size(248, 103);
+            this.richTextBox8.TabIndex = 52;
+            this.richTextBox8.Text = "Κάντε κλικ σε όποια τηλεόραση θέλετε για να αλληλεπιδράσετε μαζί τους";
+            this.richTextBox8.Visible = false;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox1.Location = new System.Drawing.Point(12, 199);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(248, 103);
+            this.richTextBox1.TabIndex = 53;
+            this.richTextBox1.Text = "Κλικάρετε την τηλεόραση για να αλληλεπιδράσετε με αυτήν ";
+            this.richTextBox1.Visible = false;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox2.Location = new System.Drawing.Point(12, 309);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            this.richTextBox2.Size = new System.Drawing.Size(248, 103);
+            this.richTextBox2.TabIndex = 54;
+            this.richTextBox2.Text = "Πατήστε για να επιλέξετε παλι , άλλη τηλεόραση";
+            this.richTextBox2.Visible = false;
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox3.Location = new System.Drawing.Point(12, 356);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
+            this.richTextBox3.Size = new System.Drawing.Size(248, 147);
+            this.richTextBox3.TabIndex = 55;
+            this.richTextBox3.Text = "Πατήστε σε κάθε αριθμό για να επιλέξετε το ανάλογο κανάλι , το οποίο και αναγράφε" +
+    "ται δίπα στην κόκκινη υπόδειξη CHANNEL";
+            this.richTextBox3.Visible = false;
+            // 
+            // richTextBox4
+            // 
+            this.richTextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.richTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox4.Location = new System.Drawing.Point(594, 42);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
+            this.richTextBox4.Size = new System.Drawing.Size(248, 151);
+            this.richTextBox4.TabIndex = 56;
+            this.richTextBox4.Text = "Πατήστε UP για να αξήσετε την έτναση η DOWN για να χαμηλώσετε την ένταση αντίστοι" +
+    "χα . Η οποία αναγράφετε δεξιά από την ένδειξη volume";
+            this.richTextBox4.Visible = false;
+            // 
+            // richTextBox5
+            // 
+            this.richTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.richTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox5.Location = new System.Drawing.Point(594, 199);
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.ReadOnly = true;
+            this.richTextBox5.Size = new System.Drawing.Size(248, 151);
+            this.richTextBox5.TabIndex = 57;
+            this.richTextBox5.Text = "Πατήστε NΕΧΤ η PREVIOUS για να \'κατεβείτε\' η να \'ανεβείται\' κανάλι αντίστοιχα";
+            this.richTextBox5.Visible = false;
+            // 
+            // richTextBox6
+            // 
+            this.richTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.richTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox6.Location = new System.Drawing.Point(594, 352);
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.ReadOnly = true;
+            this.richTextBox6.Size = new System.Drawing.Size(248, 60);
+            this.richTextBox6.TabIndex = 58;
+            this.richTextBox6.Text = "Ενεργοποίηση τηλεόρασης";
+            this.richTextBox6.Visible = false;
+            // 
+            // richTextBox7
+            // 
+            this.richTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.richTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox7.Location = new System.Drawing.Point(594, 418);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.ReadOnly = true;
+            this.richTextBox7.Size = new System.Drawing.Size(248, 60);
+            this.richTextBox7.TabIndex = 59;
+            this.richTextBox7.Text = "Απενεργοποίηση τηλεόρασης";
+            this.richTextBox7.Visible = false;
             // 
             // manakos_tv_activity
             // 
@@ -445,6 +600,16 @@ namespace Smart_home
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(886, 550);
             this.ControlBox = false;
+            this.Controls.Add(this.richTextBox7);
+            this.Controls.Add(this.richTextBox6);
+            this.Controls.Add(this.richTextBox5);
+            this.Controls.Add(this.richTextBox4);
+            this.Controls.Add(this.richTextBox3);
+            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.richTextBox8);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button26);
             this.Controls.Add(this.button25);
             this.Controls.Add(this.button24);
@@ -481,6 +646,8 @@ namespace Smart_home
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -519,5 +686,15 @@ namespace Smart_home
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.RichTextBox richTextBox8;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.RichTextBox richTextBox5;
+        private System.Windows.Forms.RichTextBox richTextBox6;
+        private System.Windows.Forms.RichTextBox richTextBox7;
     }
 }
