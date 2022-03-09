@@ -21,8 +21,8 @@ namespace Smart_home
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
-            Nikos_assistant_activities_showing show = new Nikos_assistant_activities_showing();
-            show.Show();
+            Nikos_shoe_suggest sug = new Nikos_shoe_suggest();
+            sug.Show();
         }
 
         private void button1_MouseHover(object sender, EventArgs e)
@@ -136,6 +136,18 @@ namespace Smart_home
         private void pictureBox6_MouseLeave(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_shoe_rack raa = new Nikos_shoe_rack();
+            raa.Show();
         }
     }
 }

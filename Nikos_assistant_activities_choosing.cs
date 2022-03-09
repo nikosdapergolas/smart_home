@@ -451,10 +451,13 @@ namespace Smart_home
 
         public Nikos_assistant_activities_choosing(string today,int dayCode)
         {
-            day = today;
+            
             InitializeComponent();
             day_code = dayCode;
+            day = today;
         }
+
+        
 
         private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
         {
