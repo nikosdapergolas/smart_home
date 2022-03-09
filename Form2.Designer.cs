@@ -240,6 +240,7 @@ namespace Smart_home
             this.richTextBox8.Text = "Hover over everything that is clickable, to see some details that may help you wi" +
     "th your actions";
             this.richTextBox8.Visible = false;
+            this.richTextBox8.TextChanged += new System.EventHandler(this.richTextBox8_TextChanged);
             // 
             // menuStrip1
             // 
