@@ -169,6 +169,12 @@
     <Compile Include="Nikos_assistant_day_choosing.Designer.cs">
       <DependentUpon>Nikos_assistant_day_choosing.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nikos_google_maps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_google_maps.Designer.cs">
+      <DependentUpon>Nikos_google_maps.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nikos_heat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,6 +234,12 @@
     </Compile>
     <Compile Include="Nikos_personal_assistant.Designer.cs">
       <DependentUpon>Nikos_personal_assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nikos_redirection_to_google_maps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_redirection_to_google_maps.Designer.cs">
+      <DependentUpon>Nikos_redirection_to_google_maps.cs</DependentUpon>
     </Compile>
     <Compile Include="Nikos_shoe_rack.cs">
       <SubType>Form</SubType>
@@ -297,6 +309,9 @@
     <EmbeddedResource Include="Nikos_assistant_day_choosing.resx">
       <DependentUpon>Nikos_assistant_day_choosing.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_google_maps.resx">
+      <DependentUpon>Nikos_google_maps.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nikos_heat.resx">
       <DependentUpon>Nikos_heat.cs</DependentUpon>
     </EmbeddedResource>
@@ -326,6 +341,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_personal_assistant.resx">
       <DependentUpon>Nikos_personal_assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_redirection_to_google_maps.resx">
+      <DependentUpon>Nikos_redirection_to_google_maps.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_shoe_rack.resx">
       <DependentUpon>Nikos_shoe_rack.cs</DependentUpon>

@@ -611,5 +611,39 @@ namespace Smart_home
             label50.Text = Nikos_assistant_activities_choosing.sunday_transport21;
             label51.Text = Nikos_assistant_activities_choosing.sunday_transport22;
         }
+
+        private void button9_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox9.Visible = true;
+        }
+
+        private void button9_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox9.Visible = false;
+        }
+
+        private void button8_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox10.Visible = true;
+        }
+
+        private void button8_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox10.Visible = false;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_redirection_to_google_maps google = new Nikos_redirection_to_google_maps(1);
+            google.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_redirection_to_google_maps google = new Nikos_redirection_to_google_maps(2);
+            google.Show();
+        }
     }
 }

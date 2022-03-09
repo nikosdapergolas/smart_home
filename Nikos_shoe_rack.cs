@@ -146,7 +146,7 @@ namespace Smart_home
         private void button2_Click_1(object sender, EventArgs e)
         {
             this.Close();
-            Nikos_shoe_rack raa = new Nikos_shoe_rack();
+            Nikos_shoe_rack_eshop raa = new Nikos_shoe_rack_eshop();
             raa.Show();
         }
     }

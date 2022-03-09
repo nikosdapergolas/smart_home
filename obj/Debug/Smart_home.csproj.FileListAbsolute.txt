@@ -143,3 +143,7 @@ S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.pdb
 >>>>>>> 9ae8f38269f0e1230044b93fd4a4b1aad49ca0b0
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_shoe_suggest.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_shoe_rack_eshop.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_shoe_rack_eshop.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_shoe_suggest.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_redirection_to_google_maps.resources
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_google_maps.resources
