@@ -235,6 +235,12 @@
     <Compile Include="Nikos_shoe_rack.Designer.cs">
       <DependentUpon>Nikos_shoe_rack.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nikos_shoe_rack_eshop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nikos_shoe_rack_eshop.Designer.cs">
+      <DependentUpon>Nikos_shoe_rack_eshop.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nikos_shoe_rack_ShoeChoose.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -323,6 +329,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_shoe_rack.resx">
       <DependentUpon>Nikos_shoe_rack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nikos_shoe_rack_eshop.resx">
+      <DependentUpon>Nikos_shoe_rack_eshop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nikos_shoe_rack_ShoeChoose.resx">
       <DependentUpon>Nikos_shoe_rack_ShoeChoose.cs</DependentUpon>
@@ -475,6 +484,10 @@
     <None Include="Resources\kitchen_lights_on_7.jpg" />
     <None Include="Resources\kitchen_lights_on_8.jpg" />
     <None Include="Resources\kitchen_lights_on_9.jpg" />
+    <None Include="Resources\ESHOP.jpg" />
+    <None Include="Resources\ESHOE1.jpg" />
+    <None Include="Resources\ESHOE2.jpg" />
+    <None Include="Resources\ESHOE3.jpg" />
     <Content Include="Resources\living_room_lights_off.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

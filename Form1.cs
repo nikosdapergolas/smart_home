@@ -33,7 +33,7 @@ namespace Smart_home
         private void Form1_Load(object sender, EventArgs e)
         {
             Random rand = new Random(Guid.NewGuid().GetHashCode());
-            time = rand.Next(1, 25);
+            time = rand.Next(6, 25);
             int x;
             x = rand.Next(1,8);
             day_code = x;

@@ -44,6 +44,7 @@ namespace Smart_home
             this.onlineHelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
@@ -54,7 +55,7 @@ namespace Smart_home
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(296, 163);
+            this.button1.Location = new System.Drawing.Point(281, 74);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(353, 84);
             this.button1.TabIndex = 0;
@@ -69,7 +70,7 @@ namespace Smart_home
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Silver;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(229, 41);
+            this.label1.Location = new System.Drawing.Point(230, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(545, 31);
             this.label1.TabIndex = 1;
@@ -81,7 +82,7 @@ namespace Smart_home
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(296, 279);
+            this.button3.Location = new System.Drawing.Point(281, 190);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(353, 84);
             this.button3.TabIndex = 4;
@@ -97,7 +98,7 @@ namespace Smart_home
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(296, 389);
+            this.button4.Location = new System.Drawing.Point(281, 300);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(353, 84);
             this.button4.TabIndex = 5;
@@ -113,7 +114,7 @@ namespace Smart_home
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(296, 500);
+            this.button5.Location = new System.Drawing.Point(281, 411);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(353, 84);
             this.button5.TabIndex = 6;
@@ -127,7 +128,7 @@ namespace Smart_home
             // 
             this.richTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox5.Location = new System.Drawing.Point(661, 149);
+            this.richTextBox5.Location = new System.Drawing.Point(678, 76);
             this.richTextBox5.Name = "richTextBox5";
             this.richTextBox5.ReadOnly = true;
             this.richTextBox5.Size = new System.Drawing.Size(204, 111);
@@ -139,7 +140,7 @@ namespace Smart_home
             // 
             this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox3.Location = new System.Drawing.Point(661, 279);
+            this.richTextBox3.Location = new System.Drawing.Point(678, 206);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(169, 77);
@@ -151,7 +152,7 @@ namespace Smart_home
             // 
             this.richTextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox4.Location = new System.Drawing.Point(661, 389);
+            this.richTextBox4.Location = new System.Drawing.Point(678, 316);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(222, 86);
@@ -163,7 +164,7 @@ namespace Smart_home
             // 
             this.richTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox6.Location = new System.Drawing.Point(661, 491);
+            this.richTextBox6.Location = new System.Drawing.Point(678, 418);
             this.richTextBox6.Name = "richTextBox6";
             this.richTextBox6.ReadOnly = true;
             this.richTextBox6.Size = new System.Drawing.Size(206, 102);
@@ -233,6 +234,20 @@ namespace Smart_home
             this.richTextBox1.Text = "Πιέστε το ανάλογο κουμπί για να αλληλεπιδράσετε με την παπουτσοθήκη";
             this.richTextBox1.Visible = false;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(281, 510);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(353, 84);
+            this.button2.TabIndex = 61;
+            this.button2.Text = "Αγορά παπυτσιών μέσω e-shop ";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
             // Nikos_shoe_rack
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -241,6 +256,7 @@ namespace Smart_home
             this.BackgroundImage = global::Smart_home.Properties.Resources.ShoeStack;
             this.ClientSize = new System.Drawing.Size(939, 623);
             this.ControlBox = false;
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.menuStrip1);
@@ -282,5 +298,6 @@ namespace Smart_home
         private System.Windows.Forms.ToolStripMenuItem onlineHelpToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button button2;
     }
 }
