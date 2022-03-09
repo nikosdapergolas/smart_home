@@ -12,6 +12,15 @@ namespace Smart_home
 {
     public partial class Nikos_personal_assistant : Form
     {
+
+        public static bool monday_has_plan = false;
+        public static bool tuesday_has_plan = false;
+        public static bool wednesday_has_plan = false;
+        public static bool thursday_has_plan = false;
+        public static bool friday_has_plan = false;
+        public static bool saturday_has_plan = false;
+        public static bool sunday_has_plan = false;
+
         public Nikos_personal_assistant()
         {
             InitializeComponent();
