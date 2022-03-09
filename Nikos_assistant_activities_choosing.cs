@@ -514,6 +514,8 @@ namespace Smart_home
             MessageBox.Show("Το πρόγραμμα της ημέρας υποβλήθηκε με επιτυχία");
             if (day_code == 1)
             {
+                Nikos_personal_assistant.monday_has_plan = true;
+
                 monday6 = textBox6.Text;
                 monday7 = textBox7.Text;
                 monday8 = textBox8.Text;
@@ -670,6 +672,8 @@ namespace Smart_home
             }
             if (day_code == 2)
             {
+                Nikos_personal_assistant.tuesday_has_plan = true;
+
                 tuesday6 = textBox6.Text;
                 tuesday7 = textBox7.Text;
                 tuesday8 = textBox8.Text;
@@ -826,6 +830,8 @@ namespace Smart_home
             }
             if (day_code == 3)
             {
+                Nikos_personal_assistant.wednesday_has_plan = true;
+
                 wednesday6 = textBox6.Text;
                 wednesday7 = textBox7.Text;
                 wednesday8 = textBox8.Text;
@@ -982,6 +988,8 @@ namespace Smart_home
             }
             if (day_code == 4)
             {
+                Nikos_personal_assistant.thursday_has_plan = true;
+
                 thursday6 = textBox6.Text;
                 thursday7 = textBox7.Text;
                 thursday8 = textBox8.Text;
@@ -1138,6 +1146,8 @@ namespace Smart_home
             }
             if (day_code == 5)
             {
+                Nikos_personal_assistant.friday_has_plan = true;
+
                 friday6 = textBox6.Text;
                 friday7 = textBox7.Text;
                 friday8 = textBox8.Text;
@@ -1294,6 +1304,8 @@ namespace Smart_home
             }
             if (day_code == 6)
             {
+                Nikos_personal_assistant.saturday_has_plan = true;
+
                 saturday6 = textBox6.Text;
                 saturday7 = textBox7.Text;
                 saturday8 = textBox8.Text;
@@ -1450,6 +1462,8 @@ namespace Smart_home
             }
             if (day_code == 7)
             {
+                Nikos_personal_assistant.sunday_has_plan = true;
+
                 sunday6 = textBox6.Text;
                 sunday7 = textBox7.Text;
                 sunday8 = textBox8.Text;
