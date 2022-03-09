@@ -47,7 +47,7 @@ namespace Smart_home
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(230, 161);
             this.button1.TabIndex = 0;
-            this.button1.Text = "epeksergasia\r\nplanou \r\nhmeras";
+            this.button1.Text = "επεξεργασία\r\nπλάνου \r\nημέρας";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -63,7 +63,7 @@ namespace Smart_home
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(668, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(579, 29);
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -97,7 +97,7 @@ namespace Smart_home
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(230, 161);
             this.button2.TabIndex = 22;
-            this.button2.Text = "provolh\r\nevdomadiaiou\r\nplanou";
+            this.button2.Text = "προβολή\r\nεβδομαδιαίου\r\nπλάνου";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -106,7 +106,7 @@ namespace Smart_home
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(668, 439);
+            this.ClientSize = new System.Drawing.Size(579, 441);
             this.ControlBox = false;
             this.Controls.Add(this.button2);
             this.Controls.Add(this.menuStrip1);
@@ -114,6 +114,7 @@ namespace Smart_home
             this.Name = "Nikos_personal_assistant";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nikos_personal_assistant";
+            this.Load += new System.EventHandler(this.Nikos_personal_assistant_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

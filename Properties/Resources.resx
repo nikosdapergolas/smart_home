@@ -310,4 +310,40 @@
   <data name="KaloMavroPapoutsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KaloMavroPapoutsi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="lightbulb_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lightbulb_closed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lightbulb_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lightbulb_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="living_room_lights_on_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="living_room_lights_on_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="living_room_lights_on_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="living_room_lights_on_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="living_room_lights_on_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="living_room_lights_on_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="living_room_lights_on_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="living_room_lights_on_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="living_room_lights_on_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="living_room_lights_on_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_lights_on_9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
