@@ -124,9 +124,6 @@
   <data name="ERTNEWS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ERTNEWS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bedroom1_lights_on_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bedroom1_lights_on_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bedroom1_lights_on_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,8 +139,14 @@
   <data name="news" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\news.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="akiba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\akiba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="newzzzagams" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\newzzzagams.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chillAsproConvPalio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chillAsproConvPalio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="apartment_overhead_view" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\apartment_overhead_view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -162,9 +165,6 @@
   </data>
   <data name="AGMS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AGMS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TVOFF" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TVOFF.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bedroom1_lights_on_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bedroom1_lights_on_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,11 +199,14 @@
   <data name="bedroom2_lights_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bedroom2_lights_on1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bedroom1_lights_on_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="woman_assistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\woman_assistant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bedroom1_lights_on_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom1_lights_on_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="petfood1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petfood.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="robot_assistant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\robot_assistant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,6 +247,9 @@
   <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ShoeStack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ShoeStack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kitchen_lights_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kitchen_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -259,6 +265,12 @@
   <data name="bedroom1_lights_on_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bedroom1_lights_on_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mavroPalioJordan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mavroPalioJordan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewGriJordn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewGriJordn.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="white" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\white.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -268,11 +280,14 @@
   <data name="toilet_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\toilet_lights_on.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="petfood1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\petfood.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bedroom1_lights_on_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bedroom1_lights_on_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bedroom1_lights_on_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bedroom1_lights_on_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChillMavroLacost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChillMavroLacost.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TVON" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TVON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,8 +295,8 @@
   <data name="petfood" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\petfood.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="akiba" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\akiba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TVOFF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TVOFF.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bedroom2_lights_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bedroom2_lights_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -292,8 +307,8 @@
   <data name="bathroom_lights_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\pictures\bathroom_lights_off.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ShoeStack" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ShoeStack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="KaloMavroPapoutsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KaloMavroPapoutsi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lightbulb_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lightbulb_closed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

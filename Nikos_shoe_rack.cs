@@ -38,13 +38,13 @@ namespace Smart_home
         private void button2_MouseHover(object sender, EventArgs e)
         {
             // For when the user hovers over the "Add a new plan" button
-            richTextBox2.Visible = true;
+            
         }
 
         private void button2_MouseLeave(object sender, EventArgs e)
         {
             // For when the user hovers out of the "Add a new plan" button
-            richTextBox2.Visible = false;
+            
         }
 
         private void button3_MouseHover(object sender, EventArgs e)
@@ -73,7 +73,9 @@ namespace Smart_home
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            Nikos_shoe_rack_ViewShoesColor form2 = new Nikos_shoe_rack_ViewShoesColor();
+            form2.Show();
         }
 
         private void button5_MouseHover(object sender, EventArgs e)
@@ -95,7 +97,43 @@ namespace Smart_home
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Close();
+            Nikos_shoe_rack_ShoeChoose form2 = new Nikos_shoe_rack_ShoeChoose();
+            form2.Show();
+        }
 
+        private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+
+        private void exitApplicationToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Nikos_shoe_rack_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_shoe_rack_ViewShoesKind form2 = new Nikos_shoe_rack_ViewShoesKind();
+            form2.Show();
+        }
+
+        private void pictureBox6_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = true;
+        }
+
+        private void pictureBox6_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = true;
         }
     }
 }

@@ -283,6 +283,26 @@ namespace Smart_home.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chillAsproConvPalio {
+            get {
+                object obj = ResourceManager.GetObject("chillAsproConvPalio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChillMavroLacost {
+            get {
+                object obj = ResourceManager.GetObject("ChillMavroLacost", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close {
             get {
                 object obj = ResourceManager.GetObject("close", resourceCulture);
@@ -366,6 +386,16 @@ namespace Smart_home.Properties {
         internal static System.Drawing.Bitmap info {
             get {
                 object obj = ResourceManager.GetObject("info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KaloMavroPapoutsi {
+            get {
+                object obj = ResourceManager.GetObject("KaloMavroPapoutsi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -576,6 +606,26 @@ namespace Smart_home.Properties {
         internal static System.Drawing.Bitmap man_assistant {
             get {
                 object obj = ResourceManager.GetObject("man_assistant", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mavroPalioJordan {
+            get {
+                object obj = ResourceManager.GetObject("mavroPalioJordan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NewGriJordn {
+            get {
+                object obj = ResourceManager.GetObject("NewGriJordn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
