@@ -363,6 +363,7 @@ namespace Smart_home
 
         public static string saturday_transport6;
         public static string saturday_transport7;
+        public static string saturday_transport8;
         public static string saturday_transport9;
         public static string saturday_transport10;
         public static string saturday_transport11;
@@ -423,6 +424,7 @@ namespace Smart_home
 
         public static string sunday_transport6;
         public static string sunday_transport7;
+        public static string sunday_transport8;
         public static string sunday_transport9;
         public static string sunday_transport10;
         public static string sunday_transport11;
@@ -1169,7 +1171,7 @@ namespace Smart_home
                     // Writing the way of transport in a variable
                     friday_transport7 = transport_way(radioButton56, radioButton57, radioButton58, radioButton59);
                 }
-                if (thursday8 != "")
+                if (friday8 != "")
                 {
                     // Writing the type of the activity in a variable
                     friday_activity_type8 = activity_type(radioButton7, radioButton8, radioButton9);
@@ -1309,6 +1311,142 @@ namespace Smart_home
                 saturday20 = textBox20.Text;
                 saturday21 = textBox21.Text;
                 saturday22 = textBox22.Text;
+                if (saturday6 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type6 = activity_type(radioButton1, radioButton2, radioButton3);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport6 = transport_way(radioButton52, radioButton53, radioButton54, radioButton55);
+                }
+                if (saturday7 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type7 = activity_type(radioButton4, radioButton5, radioButton6);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport7 = transport_way(radioButton56, radioButton57, radioButton58, radioButton59);
+                }
+                if (saturday8 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type8 = activity_type(radioButton7, radioButton8, radioButton9);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport8 = transport_way(radioButton60, radioButton61, radioButton62, radioButton63);
+                }
+                if (saturday9 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type9 = activity_type(radioButton10, radioButton11, radioButton12);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport9 = transport_way(radioButton64, radioButton65, radioButton66, radioButton67);
+                }
+                if (saturday10 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type10 = activity_type(radioButton13, radioButton14, radioButton15);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport10 = transport_way(radioButton68, radioButton69, radioButton70, radioButton71);
+                }
+                if (saturday11 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type11 = activity_type(radioButton16, radioButton17, radioButton18);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport11 = transport_way(radioButton72, radioButton73, radioButton74, radioButton75);
+                }
+                if (saturday12 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type12 = activity_type(radioButton19, radioButton20, radioButton21);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport12 = transport_way(radioButton76, radioButton77, radioButton78, radioButton79);
+                }
+                if (saturday13 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type13 = activity_type(radioButton22, radioButton23, radioButton24);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport13 = transport_way(radioButton80, radioButton81, radioButton82, radioButton83);
+                }
+                if (saturday14 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type14 = activity_type(radioButton25, radioButton26, radioButton27);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport14 = transport_way(radioButton84, radioButton85, radioButton86, radioButton87);
+                }
+                if (saturday15 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type15 = activity_type(radioButton25, radioButton26, radioButton27);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport15 = transport_way(radioButton88, radioButton89, radioButton90, radioButton91);
+                }
+                if (saturday16 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type16 = activity_type(radioButton28, radioButton29, radioButton30);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport16 = transport_way(radioButton92, radioButton93, radioButton94, radioButton95);
+                }
+                if (saturday17 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type17 = activity_type(radioButton31, radioButton32, radioButton33);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport17 = transport_way(radioButton96, radioButton97, radioButton98, radioButton99);
+                }
+                if (saturday18 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type18 = activity_type(radioButton34, radioButton35, radioButton36);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport18 = transport_way(radioButton100, radioButton101, radioButton102, radioButton103);
+                }
+                if (saturday19 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type19 = activity_type(radioButton37, radioButton38, radioButton39);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport19 = transport_way(radioButton104, radioButton105, radioButton106, radioButton107);
+                }
+                if (saturday20 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type20 = activity_type(radioButton40, radioButton41, radioButton42);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport20 = transport_way(radioButton108, radioButton109, radioButton110, radioButton111);
+                }
+                if (saturday21 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type21 = activity_type(radioButton43, radioButton44, radioButton45);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport21 = transport_way(radioButton112, radioButton113, radioButton114, radioButton115);
+                }
+                if (saturday22 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    saturday_activity_type22 = activity_type(radioButton45, radioButton46, radioButton47);
+
+                    // Writing the way of transport in a variable
+                    saturday_transport22 = transport_way(radioButton116, radioButton117, radioButton118, radioButton119);
+                }
             }
             if (day_code == 7)
             {
@@ -1329,12 +1467,145 @@ namespace Smart_home
                 sunday20 = textBox20.Text;
                 sunday21 = textBox21.Text;
                 sunday22 = textBox22.Text;
+                if (sunday6 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type6 = activity_type(radioButton1, radioButton2, radioButton3);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport6 = transport_way(radioButton52, radioButton53, radioButton54, radioButton55);
+                }
+                if (sunday7 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type7 = activity_type(radioButton4, radioButton5, radioButton6);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport7 = transport_way(radioButton56, radioButton57, radioButton58, radioButton59);
+                }
+                if (sunday8 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type8 = activity_type(radioButton7, radioButton8, radioButton9);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport8 = transport_way(radioButton60, radioButton61, radioButton62, radioButton63);
+                }
+                if (sunday9 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type9 = activity_type(radioButton10, radioButton11, radioButton12);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport9 = transport_way(radioButton64, radioButton65, radioButton66, radioButton67);
+                }
+                if (sunday10 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type10 = activity_type(radioButton13, radioButton14, radioButton15);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport10 = transport_way(radioButton68, radioButton69, radioButton70, radioButton71);
+                }
+                if (sunday11 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type11 = activity_type(radioButton16, radioButton17, radioButton18);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport11 = transport_way(radioButton72, radioButton73, radioButton74, radioButton75);
+                }
+                if (sunday12 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type12 = activity_type(radioButton19, radioButton20, radioButton21);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport12 = transport_way(radioButton76, radioButton77, radioButton78, radioButton79);
+                }
+                if (sunday13 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type13 = activity_type(radioButton22, radioButton23, radioButton24);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport13 = transport_way(radioButton80, radioButton81, radioButton82, radioButton83);
+                }
+                if (sunday14 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type14 = activity_type(radioButton25, radioButton26, radioButton27);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport14 = transport_way(radioButton84, radioButton85, radioButton86, radioButton87);
+                }
+                if (sunday15 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type15 = activity_type(radioButton25, radioButton26, radioButton27);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport15 = transport_way(radioButton88, radioButton89, radioButton90, radioButton91);
+                }
+                if (sunday16 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type16 = activity_type(radioButton28, radioButton29, radioButton30);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport16 = transport_way(radioButton92, radioButton93, radioButton94, radioButton95);
+                }
+                if (sunday17 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type17 = activity_type(radioButton31, radioButton32, radioButton33);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport17 = transport_way(radioButton96, radioButton97, radioButton98, radioButton99);
+                }
+                if (sunday18 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type18 = activity_type(radioButton34, radioButton35, radioButton36);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport18 = transport_way(radioButton100, radioButton101, radioButton102, radioButton103);
+                }
+                if (sunday19 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type19 = activity_type(radioButton37, radioButton38, radioButton39);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport19 = transport_way(radioButton104, radioButton105, radioButton106, radioButton107);
+                }
+                if (sunday20 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type20 = activity_type(radioButton40, radioButton41, radioButton42);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport20 = transport_way(radioButton108, radioButton109, radioButton110, radioButton111);
+                }
+                if (sunday21 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type21 = activity_type(radioButton43, radioButton44, radioButton45);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport21 = transport_way(radioButton112, radioButton113, radioButton114, radioButton115);
+                }
+                if (sunday22 != "")
+                {
+                    // Writing the type of the activity in a variable
+                    sunday_activity_type22 = activity_type(radioButton45, radioButton46, radioButton47);
+
+                    // Writing the way of transport in a variable
+                    sunday_transport22 = transport_way(radioButton116, radioButton117, radioButton118, radioButton119);
+                }
             }
 
-            MessageBox.Show(monday6);
-            MessageBox.Show(monday_activity_type6);
-            MessageBox.Show(monday_transport6);
-
+            
             this.Close();
             Nikos_personal_assistant assist = new Nikos_personal_assistant();
             assist.Show();
