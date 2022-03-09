@@ -1196,7 +1196,7 @@ namespace Smart_home
             this.Controls.Add(this.menuStrip1);
             this.Name = "Nikos_assistant_activities_showing";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nikos_assistant_activities_showing";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Nikos_assistant_activities_showing_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

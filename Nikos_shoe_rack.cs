@@ -20,7 +20,7 @@ namespace Smart_home
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if()
+            
         }
 
         private void button1_MouseHover(object sender, EventArgs e)
