@@ -20,9 +20,7 @@ namespace Smart_home
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Nikos_assistant_activities_showing show = new Nikos_assistant_activities_showing();
-            show.Show();
+            if()
         }
 
         private void button1_MouseHover(object sender, EventArgs e)
@@ -136,6 +134,11 @@ namespace Smart_home
         private void pictureBox6_MouseLeave(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -12,6 +12,12 @@ namespace Smart_home
 {
     public partial class Nikos_shoe_rack_ViewShoesKind : Form
     {
+        public static string converse_chill="Λευκό Converse";
+        public static string lacoste_chill = "Χαλαρό Lacoste";
+        public static string jays_black_active = "Μαύρα αθλητικά";
+        public static string jays_grey_active = "Γκρι αθλητικά";
+        public static string leather_black_good = "Δερμάτινο μαύρο επίσημο";
+
         public Nikos_shoe_rack_ViewShoesKind()
         {
             InitializeComponent();

@@ -54,11 +54,11 @@ namespace Smart_home
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(296, 149);
+            this.button1.Location = new System.Drawing.Point(296, 163);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(353, 84);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Προβολή Σημερινού πλάνου";
+            this.button1.Text = "Πρόταση παπουτσιού με βάση το πλάνο ";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
@@ -81,7 +81,7 @@ namespace Smart_home
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(296, 272);
+            this.button3.Location = new System.Drawing.Point(296, 279);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(353, 84);
             this.button3.TabIndex = 4;
