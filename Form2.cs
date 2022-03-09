@@ -187,6 +187,11 @@ namespace Smart_home
         {
 
         }
+
+        private void richTextBox8_TextChanged(object sender, EventArgs e)
+        {
+             
+        }
     }
      
 }
