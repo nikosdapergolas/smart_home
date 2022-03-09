@@ -20,7 +20,9 @@ namespace Smart_home
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
+            Nikos_assistant_activities_showing show = new Nikos_assistant_activities_showing();
+            show.Show();
         }
 
         private void button1_MouseHover(object sender, EventArgs e)
