@@ -20,7 +20,9 @@ namespace Smart_home
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
+            Nikos_shoe_suggest sug = new Nikos_shoe_suggest();
+            sug.Show();
         }
 
         private void button1_MouseHover(object sender, EventArgs e)

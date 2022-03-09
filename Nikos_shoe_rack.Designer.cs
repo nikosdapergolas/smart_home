@@ -58,7 +58,7 @@ namespace Smart_home
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(353, 84);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Πρόταση παπουτσιού με βάση το πλάνο ";
+            this.button1.Text = "Σελίδα πρωτάσεων παπουτσιού";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
@@ -132,7 +132,7 @@ namespace Smart_home
             this.richTextBox5.ReadOnly = true;
             this.richTextBox5.Size = new System.Drawing.Size(204, 111);
             this.richTextBox5.TabIndex = 15;
-            this.richTextBox5.Text = "Πιέστε για να προβάλετε το σημερινό σας πρόγραμμα ";
+            this.richTextBox5.Text = "Πιέστε για ανακατεύθυνση στην πρόταση παπουτσιού";
             this.richTextBox5.Visible = false;
             // 
             // richTextBox3
