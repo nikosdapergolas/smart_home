@@ -12,6 +12,9 @@ namespace Smart_home
 {
     public partial class Nikos_assistant_activities_showing : Form
     {
+
+        public static int day_code = 1;
+
         public Nikos_assistant_activities_showing()
         {
             InitializeComponent();
@@ -19,6 +22,8 @@ namespace Smart_home
 
         private void Nikos_assistant_activities_showing_Load(object sender, EventArgs e)
         {
+            panel1.BackColor = button1.BackColor;
+
             label1.Text = Nikos_assistant_activities_choosing.monday6;
             label2.Text = Nikos_assistant_activities_choosing.monday7;
             label3.Text = Nikos_assistant_activities_choosing.monday8;
@@ -72,6 +77,140 @@ namespace Smart_home
             label49.Text = Nikos_assistant_activities_choosing.monday_transport20;
             label50.Text = Nikos_assistant_activities_choosing.monday_transport21;
             label51.Text = Nikos_assistant_activities_choosing.monday_transport22;
+        }
+
+        private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Nikos_personal_assistant personal = new Nikos_personal_assistant();
+            personal.Show();
+        }
+
+        private void exitApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            day_code = 1;
+            panel1.BackColor = button1.BackColor;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            day_code = 2;
+            panel1.BackColor = button2.BackColor;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            day_code = 3;
+            panel1.BackColor = button3.BackColor;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            day_code = 4;
+            panel1.BackColor = button4.BackColor;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            day_code = 5;
+            panel1.BackColor = button5.BackColor;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            day_code = 6;
+            panel1.BackColor = button6.BackColor;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            day_code = 7;
+            panel1.BackColor = button7.BackColor;
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = true;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = false;
+        }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox2.Visible = true;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox2.Visible = false;
+        }
+
+        private void button2_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox3.Visible = true;
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox3.Visible = false;
+        }
+
+        private void button4_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox5.Visible = true;
+        }
+
+        private void button4_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox5.Visible = false;
+        }
+
+        private void button3_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox4.Visible = true;
+        }
+
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox4.Visible = false;
+        }
+
+        private void button5_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox6.Visible = true;
+        }
+
+        private void button5_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox6.Visible = false;
+        }
+
+        private void button6_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox7.Visible = true;
+        }
+
+        private void button6_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox7.Visible = false;
+        }
+
+        private void button7_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox8.Visible = true;
+        }
+
+        private void button7_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox8.Visible = false;
         }
     }
 }
