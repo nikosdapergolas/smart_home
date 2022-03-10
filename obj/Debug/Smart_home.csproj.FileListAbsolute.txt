@@ -147,3 +147,4 @@ S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_shoe_rack_esh
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_shoe_suggest.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_redirection_to_google_maps.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_google_maps.resources
+S:\visual_studio_projects\C#\smart_home\obj\Debug\Smart_home.Eva_AirCondition_choose.resources
