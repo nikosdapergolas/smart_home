@@ -217,7 +217,7 @@ namespace Smart_home
             label6.Text = day;
         }
 
-<<<<<<< HEAD
+
         private void button6_MouseHover(object sender, EventArgs e)
         {
             richTextBox9.Visible = true;
@@ -236,11 +236,11 @@ namespace Smart_home
         private void pictureBox2_MouseLeave(object sender, EventArgs e)
         {
             richTextBox1.Visible = false;
-=======
+        }
+
         private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://we.tl/t-RRnMcJTG8u");
->>>>>>> bdfe669c89fe5304627329fd6aeda84fac6c86a5
         }
     }
      

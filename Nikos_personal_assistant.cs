@@ -54,12 +54,12 @@ namespace Smart_home
 
         private void Nikos_personal_assistant_Load(object sender, EventArgs e)
         {
-
+            //eafserf
         }
 
         private void onlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-        https://we.tl/t-RRnMcJTG8u
+            System.Diagnostics.Process.Start("https://we.tl/t-RRnMcJTG8u");
         }
     }
 }
