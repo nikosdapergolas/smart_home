@@ -12,7 +12,8 @@ namespace Smart_home
 {
     public partial class Form2 : Form
     {
-        
+        public static int time;
+        public static string day;
         public Form2()
         {
             InitializeComponent();
@@ -116,6 +117,9 @@ namespace Smart_home
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            label2.Text = time.ToString();
+            label6.Text = day;
+
             // The image that is loaded everytime i open this form
             // and it represents the "help" icon (maybe change later)
             pictureBox1.ImageLocation = "pictures/info.png";
@@ -141,7 +145,8 @@ namespace Smart_home
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Eva_AirCondition_Form air_condition = new Eva_AirCondition_Form();
+            this.Close();
+            Eva_AirCondition_choose air_condition = new Eva_AirCondition_choose();
             air_condition.Show();
 
         }
@@ -192,6 +197,14 @@ namespace Smart_home
         private void richTextBox8_TextChanged(object sender, EventArgs e)
         {
              
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            time = Form1.time;
+            day = Form2.day;
+            label2.Text = time.ToString();
+            label6.Text = day;
         }
     }
      

@@ -164,5 +164,17 @@ namespace Smart_home
         {
 
         }
+
+        private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+
+        private void exitApplicationToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
