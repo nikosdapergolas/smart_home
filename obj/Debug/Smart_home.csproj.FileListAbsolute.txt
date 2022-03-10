@@ -79,3 +79,4 @@ S:\visual_studio_projects\C#\smart_home\obj\Debug\Smart_home.csproj.CoreCompileI
 S:\visual_studio_projects\C#\smart_home\obj\Debug\Smart_home.csproj.CopyComplete
 S:\visual_studio_projects\C#\smart_home\obj\Debug\Smart_home.exe
 S:\visual_studio_projects\C#\smart_home\obj\Debug\Smart_home.pdb
+S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.csproj.AssemblyReference.cache

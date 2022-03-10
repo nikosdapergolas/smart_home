@@ -39,66 +39,130 @@ namespace Smart_home
         private void panel1_MouseHover(object sender, EventArgs e)
         {
             richTextBox2.Visible = true;
+            pictureBox2.Visible = true;
         }
 
         private void panel1_MouseLeave(object sender, EventArgs e)
         {
             richTextBox2.Visible = false;
+            pictureBox2.Visible = false;
         }
 
         private void panel2_MouseHover(object sender, EventArgs e)
         {
             richTextBox3.Visible = true;
+            pictureBox3.Visible = true;
         }
 
         private void panel2_MouseLeave(object sender, EventArgs e)
         {
             richTextBox3.Visible = false;
+            pictureBox3.Visible = false;
         }
 
         private void panel3_MouseHover(object sender, EventArgs e)
         {
             richTextBox4.Visible = true;
+            pictureBox7.Visible = true;
         }
 
         private void panel3_MouseLeave(object sender, EventArgs e)
         {
             richTextBox4.Visible = false;
+            pictureBox7.Visible = false;
         }
 
         private void panel4_MouseHover(object sender, EventArgs e)
         {
             richTextBox5.Visible = true;
+            pictureBox6.Visible = true;
         }
 
         private void panel4_MouseLeave(object sender, EventArgs e)
         {
             richTextBox5.Visible = false;
+            pictureBox6.Visible = false;
         }
 
         private void panel5_MouseHover(object sender, EventArgs e)
         {
             richTextBox6.Visible = true;
+            pictureBox5.Visible = true;
         }
 
         private void panel5_MouseLeave(object sender, EventArgs e)
         {
             richTextBox6.Visible = false;
+            pictureBox5.Visible = false;
         }
 
         private void panel6_MouseHover(object sender, EventArgs e)
         {
             richTextBox1.Visible = true;
+            pictureBox4.Visible = true;
         }
 
         private void panel6_MouseLeave(object sender, EventArgs e)
         {
             richTextBox1.Visible = false;
+            pictureBox4.Visible = false;
         }
 
         private void Nikos_lights_Load(object sender, EventArgs e)
         {
+            if(bedroom1_lightsOn == true)
+            {
+                pictureBox2.ImageLocation = "pictures/lightbulb_open.png";
+            }
+            else
+            {
+                pictureBox2.ImageLocation = "pictures/lightbulb_closed.png";
+            }
 
+            if (living_room_lightsOn == true)
+            {
+                pictureBox3.ImageLocation = "pictures/lightbulb_open.png";
+            }
+            else
+            {
+                pictureBox3.ImageLocation = "pictures/lightbulb_closed.png";
+            }
+
+            if (bedroom2_lightsOn == true)
+            {
+                pictureBox4.ImageLocation = "pictures/lightbulb_open.png";
+            }
+            else
+            {
+                pictureBox4.ImageLocation = "pictures/lightbulb_closed.png";
+            }
+
+            if (bathroom_lightsOn == true)
+            {
+                pictureBox5.ImageLocation = "pictures/lightbulb_open.png";
+            }
+            else
+            {
+                pictureBox5.ImageLocation = "pictures/lightbulb_closed.png";
+            }
+
+            if (toilet_lightsOn == true)
+            {
+                pictureBox6.ImageLocation = "pictures/lightbulb_open.png";
+            }
+            else
+            {
+                pictureBox6.ImageLocation = "pictures/lightbulb_closed.png";
+            }
+
+            if (kitchen_lightsOn == true)
+            {
+                pictureBox7.ImageLocation = "pictures/lightbulb_open.png";
+            }
+            else
+            {
+                pictureBox7.ImageLocation = "pictures/lightbulb_closed.png";
+            }
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -180,6 +244,16 @@ namespace Smart_home
         private void onlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://we.tl/t-RRnMcJTG8u");
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox7.Visible = true;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox7.Visible = false;
         }
     }
 }

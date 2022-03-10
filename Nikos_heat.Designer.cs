@@ -95,7 +95,7 @@ namespace Smart_home
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Smart_home.Properties.Resources.info;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 32);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 40);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(32, 34);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -609,7 +609,7 @@ namespace Smart_home
             this.richTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.richTextBox7.Location = new System.Drawing.Point(61, 66);
+            this.richTextBox7.Location = new System.Drawing.Point(58, 83);
             this.richTextBox7.Name = "richTextBox7";
             this.richTextBox7.ReadOnly = true;
             this.richTextBox7.Size = new System.Drawing.Size(583, 271);

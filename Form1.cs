@@ -79,6 +79,7 @@ namespace Smart_home
             label2.Text = day;
             Form2.time = time;
             Form2.day = day;
+            Form2.chosenAvatar = currentAvatar;
 
             // Adding all the URLs of the assistant's pictures 
             /*assistantAvatar.Add("pictures/woman_assistant.jpg");
