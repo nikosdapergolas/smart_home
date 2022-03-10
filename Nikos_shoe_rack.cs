@@ -1,8 +1,11 @@
-﻿using System;
+﻿using AltoHttp;
+using Azure;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -148,6 +151,19 @@ namespace Smart_home
             this.Close();
             Nikos_shoe_rack_eshop raa = new Nikos_shoe_rack_eshop();
             raa.Show();
+        }
+        HttpDownloader down;
+        string Text1= "HELP.pdf";
+        private void onlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            System.Diagnostics.Process.Start("https://we.tl/t-RRnMcJTG8u");
+
+        }
+
+        private void HttpDownloader_DownloadCompleted(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

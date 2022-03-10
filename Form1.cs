@@ -120,5 +120,10 @@ namespace Smart_home
             time = time % 25;
             label1.Text = time.ToString();
         }
+
+        private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://we.tl/t-RRnMcJTG8u");
+        }
     }
 }
