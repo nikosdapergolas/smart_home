@@ -23,7 +23,7 @@ namespace Smart_home
         List<String> daysList = new List<string>();
 
         // An integer that shows the current avatar in the list (by default it's the woman)
-        int currentAvatar = 0;
+        public static int currentAvatar = 0;
         
 
         public Form1()
@@ -77,6 +77,8 @@ namespace Smart_home
 
             label1.Text = time.ToString();
             label2.Text = day;
+            Form2.time = time;
+            Form2.day = day;
 
             // Adding all the URLs of the assistant's pictures 
             /*assistantAvatar.Add("pictures/woman_assistant.jpg");

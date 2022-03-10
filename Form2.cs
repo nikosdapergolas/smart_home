@@ -14,6 +14,9 @@ namespace Smart_home
     {
         public static int time;
         public static string day;
+        List<String> assistantAvatar = new List<string>();
+        public static int chosenAvatar = Form1.currentAvatar;
+
         public Form2()
         {
             InitializeComponent();
@@ -117,12 +120,19 @@ namespace Smart_home
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            assistantAvatar.Add("pictures/cute.png");
+            assistantAvatar.Add("pictures/walter_white.png");
+            assistantAvatar.Add("pictures/woman3.png");
+            assistantAvatar.Add("pictures/homer2_assistant.png");
+            assistantAvatar.Add("pictures/man2_assistant.png");
+
             label2.Text = time.ToString();
             label6.Text = day;
+            pictureBox2.ImageLocation = assistantAvatar[chosenAvatar];
 
             // The image that is loaded everytime i open this form
             // and it represents the "help" icon (maybe change later)
-            pictureBox1.ImageLocation = "pictures/info.png";
+            
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -205,6 +215,26 @@ namespace Smart_home
             day = Form2.day;
             label2.Text = time.ToString();
             label6.Text = day;
+        }
+
+        private void button6_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox9.Visible = true;
+        }
+
+        private void button6_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox9.Visible = false;
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = true;
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            richTextBox1.Visible = false;
         }
     }
      
