@@ -412,6 +412,7 @@
     <None Include="Resources\living_room_lights_on.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="triangle.wav" />
     <None Include="Resources\NewGriJordn.jpeg" />
     <None Include="Resources\mavroPalioJordan.jpg" />
     <None Include="Resources\living_room_lights_on_9.jpg" />

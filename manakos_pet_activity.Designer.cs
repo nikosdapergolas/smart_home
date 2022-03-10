@@ -147,7 +147,7 @@ namespace Smart_home
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(0, 32);
+            this.richTextBox1.Location = new System.Drawing.Point(0, 80);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(279, 96);
             this.richTextBox1.TabIndex = 27;
@@ -163,7 +163,7 @@ namespace Smart_home
             // 
             this.richTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.richTextBox8.Location = new System.Drawing.Point(0, 134);
+            this.richTextBox8.Location = new System.Drawing.Point(0, 182);
             this.richTextBox8.Name = "richTextBox8";
             this.richTextBox8.ReadOnly = true;
             this.richTextBox8.Size = new System.Drawing.Size(248, 103);

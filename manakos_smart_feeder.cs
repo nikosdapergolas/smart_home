@@ -116,6 +116,7 @@ namespace Smart_home
         {
             food = 100;
             timer3.Start();
+            richTextBox1.Text = "Στάθμη στο 100% ";
 
         }
 
@@ -155,16 +156,20 @@ namespace Smart_home
                 pictureBox1.BackgroundImage = Image.FromFile(@"white.jpg");
                 pictureBox4.Visible = true;
                 MessageBox.Show("Στάθμη τροφής στα 50%");
+                richTextBox1.Text = "Στάθμη τροφής στα 50%";
             }
             if (food <= 25)
             {
                 pictureBox4.BackgroundImage = Image.FromFile(@"white.jpg");
                 pictureBox3.Visible = true;
                 MessageBox.Show("Στάθμη τροφής στα 25%");
+                richTextBox1.Text = "Στάθμη τροφής στα 25%";
+
             }
             if (food == 3)
             {
                 MessageBox.Show("Στάθμη τροφής στα 0% είσάγεται τροφή και πατήστε 'Γεμισμα ταίστρας' ");
+                richTextBox1.Text = "Στάθμη τροφής στα 0%";
                 timer3.Stop();
             }
 
@@ -179,7 +184,7 @@ namespace Smart_home
                 food = food - 15;
                 richTextBox1.Text = "Εναπόθεση τροφής ";
                 SoundPlayer ding = new SoundPlayer(@"triangle.wav");
-                ding.Play();
+                //ding.Play();
 
             }
         }
@@ -189,7 +194,7 @@ namespace Smart_home
             //profanos den boro na dimiourghso fonitikh sinomilia me to zoo 
             richTextBox1.Text = "Πραγματοποίηση Συνομιλίας ";
             SoundPlayer ding = new SoundPlayer(@"triangle.wav");
-            ding.Play();
+            //ding.Play();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
