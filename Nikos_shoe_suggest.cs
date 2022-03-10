@@ -34,7 +34,7 @@ namespace Smart_home
 
         private void onlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            System.Diagnostics.Process.Start("https://we.tl/t-RRnMcJTG8u");
         }
 
         private void exitApplicationToolStripMenuItem_Click(object sender, EventArgs e)

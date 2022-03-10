@@ -206,6 +206,11 @@ namespace Smart_home
             label2.Text = time.ToString();
             label6.Text = day;
         }
+
+        private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://we.tl/t-RRnMcJTG8u");
+        }
     }
      
 }

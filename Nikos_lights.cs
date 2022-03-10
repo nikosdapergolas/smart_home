@@ -176,5 +176,10 @@ namespace Smart_home
         {
             Application.Exit();
         }
+
+        private void onlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        https://we.tl/t-RRnMcJTG8u
+        }
     }
 }

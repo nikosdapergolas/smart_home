@@ -40,5 +40,10 @@ namespace Smart_home
                 pictureBox1.ImageLocation = "pictures/weather.jpg";
             }
         }
+
+        private void onlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        https://we.tl/t-RRnMcJTG8u
+        }
     }
 }
