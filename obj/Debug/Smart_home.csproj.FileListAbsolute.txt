@@ -1,11 +1,13 @@
-<<<<<<< HEAD
 C:\Users\alexm\source\repos\smart_home\bin\Debug\Smart_home.exe.config
 C:\Users\alexm\source\repos\smart_home\bin\Debug\Smart_home.exe
 C:\Users\alexm\source\repos\smart_home\bin\Debug\Smart_home.pdb
+C:\Users\alexm\source\repos\smart_home\bin\Debug\AltoHttp.dll
+C:\Users\alexm\source\repos\smart_home\bin\Debug\Azure.Core.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\EntityFramework.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\alexm\source\repos\smart_home\bin\Debug\Newtonsoft.Json.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\Npgsql.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Buffers.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Collections.Immutable.dll
@@ -13,6 +15,7 @@ C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Data.SQLite.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Data.SQLite.EF6.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Memory.Data.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Memory.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
@@ -21,16 +24,19 @@ C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Text.Json.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Threading.Channels.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.ValueTuple.dll
+C:\Users\alexm\source\repos\smart_home\bin\Debug\Azure.Core.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\EntityFramework.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\alexm\source\repos\smart_home\bin\Debug\Newtonsoft.Json.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\Npgsql.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Buffers.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Collections.Immutable.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Data.SQLite.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Memory.xml
+C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Memory.Data.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Text.Encodings.Web.xml
@@ -38,7 +44,6 @@ C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Text.Json.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Threading.Channels.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\alexm\source\repos\smart_home\bin\Debug\System.ValueTuple.xml
-C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.csproj.AssemblyReference.cache
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Eva_AirCondition_Form.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Form1.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Form2.resources
@@ -49,6 +54,7 @@ C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.manakos_tv_activity.
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_assistant_activities_choosing.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_assistant_activities_showing.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_assistant_day_choosing.resources
+C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_google_maps.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_heat.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_heat_control.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_lights.resources
@@ -59,16 +65,22 @@ C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_lights_kitchen
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_lights_living_room.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_lights_toilet.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_personal_assistant.resources
+C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_redirection_to_google_maps.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_shoe_rack.resources
+C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_shoe_rack_eshop.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_shoe_rack_ShoeChoose.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_shoe_rack_ViewShoesColor.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_shoe_rack_ViewShoesKind.resources
+C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Nikos_shoe_suggest.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.Properties.Resources.resources
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.csproj.GenerateResource.cache
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.csproj.CoreCompileInputs.cache
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.csproj.CopyComplete
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.exe
 C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.pdb
+<<<<<<< HEAD
+C:\Users\alexm\source\repos\smart_home\obj\Debug\Smart_home.csproj.AssemblyReference.cache
+=======
 =======
 S:\visual_studio_projects\C#\Smart_home\bin\Debug\Smart_home.exe.config
 S:\visual_studio_projects\C#\Smart_home\bin\Debug\Smart_home.exe
@@ -148,3 +160,4 @@ S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_shoe_suggest.
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_redirection_to_google_maps.resources
 S:\visual_studio_projects\C#\Smart_home\obj\Debug\Smart_home.Nikos_google_maps.resources
 S:\visual_studio_projects\C#\smart_home\obj\Debug\Smart_home.Eva_AirCondition_choose.resources
+>>>>>>> 8fa79519f06f2bb9a1345628cec5eda71d0d71fa

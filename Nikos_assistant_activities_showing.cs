@@ -645,5 +645,10 @@ namespace Smart_home
             Nikos_redirection_to_google_maps google = new Nikos_redirection_to_google_maps(2);
             google.Show();
         }
+
+        private void onlineHelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://we.tl/t-RRnMcJTG8u");
+        }
     }
 }

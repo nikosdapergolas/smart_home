@@ -161,5 +161,10 @@ namespace Smart_home
         {
             richTextBox1.Visible = false;
         }
+
+        private void onlineHelpToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://we.tl/t-RRnMcJTG8u");
+        }
     }
 }
